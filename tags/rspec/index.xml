@@ -6,8 +6,34 @@
     <description>Recent content in Rspec on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Mon, 01 Aug 2016 23:37:50 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 10 Aug 2016 17:56:15 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/tags/rspec/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>rpecの実行コマンド（部分実行も）のまとめ</title>
+      <link>http://blog.tackeyy.org/2016/08/10/rspec-execution-commands</link>
+      <pubDate>Wed, 10 Aug 2016 17:56:15 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/08/10/rspec-execution-commands</guid>
+      <description>&lt;p&gt;rspecでテストを書いていると、一部のテストだけ実行したい場合があります。&lt;br&gt;
+rspecから少し離れるとすぐコマンドを忘れてしまうので備忘がてらメモしておきます。&lt;br&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/226c9cafb6b4fd1af6ec0d5001e89335.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;個人的に以下の二つの方法は試したことがなかった。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/tackeyy/226c9cafb6b4fd1af6ec0d5001e89335#file-rspec-execution-commands-L4-L8&#34;&gt;https://gist.github.com/tackeyy/226c9cafb6b4fd1af6ec0d5001e89335#file-rspec-execution-commands-L4-L8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://gist.github.com/tackeyy/226c9cafb6b4fd1af6ec0d5001e89335#file-rspec-execution-commands-L16&#34;&gt;https://gist.github.com/tackeyy/226c9cafb6b4fd1af6ec0d5001e89335#file-rspec-execution-commands-L16&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;参考：&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://rspec.info/&#34;&gt;http://rspec.info/&lt;/a&gt; &lt;br&gt;
+&lt;a href=&#34;https://www.relishapp.com/rspec/rspec-core/v/3-5/docs/command-line&#34;&gt;https://www.relishapp.com/rspec/rspec-core/v/3-5/docs/command-line&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Rspecでテストを書くときの雛形</title>
