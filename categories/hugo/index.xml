@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/categories/hugo/</link>
+    <description>Recent content in Hugo on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Tue, 14 Jun 2016 20:12:54 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>これだけあればブログを書けるHugoの3つのコマンド</title>
+      <link>http://blog.tackeyy.org/2016/06/14/hugo-commands</link>
+      <pubDate>Tue, 14 Jun 2016 20:12:54 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/14/hugo-commands</guid>
+      <description>
+
+&lt;h3 id=&#34;普段使う-というよりもこれ以外使ってない-コマンド3選:0cd16b54df007c4eb14eef8cde24f476&#34;&gt;普段使う（というよりもこれ以外使ってない）コマンド3選&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;記事追加&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new post/yyyy-mm-dd_title.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;年月日は好みで入れてます。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サーバー起動&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -t angels-ladder -D -w
+hugo server -t hugo-icarus-theme -D -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;-D ・・・ ドラフトも起動する&lt;br&gt;
+-W ・・・ 保存時にページをリロード&lt;br&gt;
+angels-ladder ・・・ layout名&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;デプロイ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo -t angels-ladder
+hugo -t hugo-icarus-theme
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

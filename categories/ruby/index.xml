@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/categories/ruby/</link>
+    <description>Recent content in Ruby on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 07 Aug 2016 23:42:49 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[WIP]Rubyってgetterをいちいち書かなくて良いということを学んだ</title>
+      <link>http://blog.tackeyy.org/2016/08/07/unnecessary-getter-and-setter-with-ruby</link>
+      <pubDate>Sun, 07 Aug 2016 23:42:49 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/08/07/unnecessary-getter-and-setter-with-ruby</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>モンキーパッチ</title>
+      <link>http://blog.tackeyy.org/2016/06/14/monkey-patch</link>
+      <pubDate>Tue, 14 Jun 2016 20:28:37 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/14/monkey-patch</guid>
+      <description>
+
+&lt;p&gt;社内の方が&lt;a href=&#34;https://github.com/t-k/gmo-payment-ruby&#34;&gt;gmo-payment-ruby&lt;/a&gt;にあてたモンキーパッチを紹介されていました。&lt;br&gt;
+前職ではJavaを主に使っていて、外部のライブラリを使用するというよりも自社で自社仕様のライブラリを使う（もしくは作る）方が多かったので、&lt;br&gt;
+今回初めてモンキーパッチという言葉を聞きました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;モンキーパッチ:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;モンキーパッチ&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;モンキーパッチは、オリジナルのソースコードを変更することなく、実行時に動的言語(例えばSmalltalk, JavaScript, Objective-C, Ruby, Perl, Python, Groovy, など)のコードを拡張したり、変更したりする方法である。
+&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%83%E3%83%81&#34;&gt;Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;方法:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;方法&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;紹介されたモンキーパッチでは、class_eval, module_eval (Module)を使用して実装していました&lt;br&gt;
+&lt;a href=&#34;http://ref.xaio.jp/ruby/classes/module/class_eval&#34;&gt;http://ref.xaio.jp/ruby/classes/module/class_eval&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;話を受けて思ったこと:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;話を受けて思ったこと&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;モンキーパッチが呼び出されていることをコード見ただけでわかるか？&lt;br&gt;
+運用・保守を行うフェーズを想定すると上記の観点を満たせるか、という点が大事になる気がしました。&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

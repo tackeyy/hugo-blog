@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/github/</link>
+    <description>Recent content in Github on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Wed, 27 Jul 2016 23:54:46 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
+      <link>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</link>
+      <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</guid>
+      <description>
+
+&lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
+
+&lt;h1 id=&#34;現在のoriginの状態を確認する:97683f8d8522e9fdeccf47f363039e79&#34;&gt;現在のoriginの状態を確認する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;sshに変更する:97683f8d8522e9fdeccf47f363039e79&#34;&gt;SSHに変更する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考:97683f8d8522e9fdeccf47f363039e79&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/changing-a-remote-s-url/&#34;&gt;https://help.github.com/articles/changing-a-remote-s-url/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHubにSSH公開鍵を登録する</title>
+      <link>http://blog.tackeyy.org/2016/05/17/add-ssh-key-to-github</link>
+      <pubDate>Tue, 17 May 2016 15:25:25 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/17/add-ssh-key-to-github</guid>
+      <description>
+
+&lt;p&gt;git pullなどをするときに常にuser/passを聞かれるのが面倒だったので、&lt;br&gt;
+公開鍵を登録しなきゃなと思っていたのですが、後回しになっていました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;手順:1b2c9ec2aace1b10d29f2cd0c205f724&#34;&gt;手順&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;公開鍵を作成（すでに作成している場合はスキップ）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;GitHubにSSH公開鍵を登録&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;接続確認&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;一通り説明してある&lt;a href=&#34;dhttp://monsat.hatenablog.com/entry/generating-ssh-keys-for-github&#34;&gt;ページ&lt;/a&gt;がありました。説明通りやれば簡単にできるので、そちらを参考してください。&lt;/p&gt;
+
+&lt;h4 id=&#34;はまったところ:1b2c9ec2aace1b10d29f2cd0c205f724&#34;&gt;はまったところ&lt;/h4&gt;
+
+&lt;h5 id=&#34;ssh公開鍵をgithub上に設定して-ssh-t-git-github-com-で接続確認ができたのに-git-push-などのコマンド実行時にuser-passを聞かれる:1b2c9ec2aace1b10d29f2cd0c205f724&#34;&gt;SSH公開鍵をGitHub上に設定して &lt;code&gt;ssh -T git@github.com&lt;/code&gt;で接続確認ができたのに、&lt;code&gt;git push&lt;/code&gt;などのコマンド実行時にuser/passを聞かれる&lt;/h5&gt;
+
+&lt;p&gt;そもそもcloneする時にhttpsだったため、SSHでの通信を行ってませんでした。&lt;br&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git remote -v&lt;/code&gt;でhttpsになっていることを確認&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git remote set-url origin git@github.com:{user_name}/{repository_name}git&lt;/code&gt; &lt;a href=&#34;https://help.github.com/articles/changing-a-remote-s-url/&#34;&gt;refs&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&#34;git-pull-origin-develop-する時にポップアップダイアログで-id-rsaのパスワードを入力してください-と聞かれる:1b2c9ec2aace1b10d29f2cd0c205f724&#34;&gt;&lt;code&gt;git pull origin develop&lt;/code&gt;する時にポップアップダイアログで「id_rsaのパスワードを入力してください」と聞かれる&lt;/h5&gt;
+
+&lt;p&gt;そもそも公開鍵を作成する時にパスフレーズは入力していない（つもり）だったし、パスフレーズ=パスワードかどうかわかりませんでした。&lt;br&gt;
+パスフレーズを入力していないとパスワードを尋ねられないみたいなので、パスフレーズで何かしら入力してしまってたのだと思います。&lt;br&gt;
+手順としては微妙ですが、やったとこは以下の通り。&lt;br&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;パスフレーズの変更 &lt;code&gt;ssh-keygen -p&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;パスフレーズ入力を省略&lt;code&gt;ssh-add ~/.ssh/id_rsa&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;ssh-add&lt;/code&gt;は&lt;br&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ssh-add は認証エージェントであるssh-agent (1) に、秘密鍵を追加します。（省略）
+パスフレーズが必要な場合、ssh-add はユーザにそれを尋ねます。このパスフレーズはユーザの端末から読み込まれます。複数の identity ファイルが指定された場合、ssh-add は最後に入力されたパスフレーズをくり返し使います。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;a href=&#34;http://euske.github.io/openssh-jman/ssh-add.html&#34;&gt;http://euske.github.io/openssh-jman/ssh-add.html&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;とのこと。&lt;/p&gt;
+
+&lt;h4 id=&#34;気になったこと:1b2c9ec2aace1b10d29f2cd0c205f724&#34;&gt;気になったこと&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gyazo.com/1529b6da7236385b0e6b4495385b0080&#34;&gt;このアドレス&lt;/a&gt;なに？（塗りつぶしてあったよく見えませんが、最後のmba.localみたいなやつ）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ssh-keygenコマンドにオプションをつけずに実行すると、ユーザー名@ホスト名.ドメインネームになるらしい。&lt;br&gt;
+何かメールが送られたりするのか？そしたらメールアドレスを変更したい。&lt;br&gt;
+と思ったが、ただのコメントだった。&lt;br&gt;
+&lt;a href=&#34;http://euske.github.io/openssh-jman/ssh-keygen.html&#34;&gt;http://euske.github.io/openssh-jman/ssh-keygen.html&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;なので直接編集しました。&lt;/p&gt;
+
+&lt;h4 id=&#34;メモ:1b2c9ec2aace1b10d29f2cd0c205f724&#34;&gt;メモ&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/hnw/20140705&#34;&gt;http://d.hatena.ne.jp/hnw/20140705&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ほいじゃあの。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

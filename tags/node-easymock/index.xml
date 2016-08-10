@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node Easymock on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/node-easymock/</link>
+    <description>Recent content in Node Easymock on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Tue, 21 Jun 2016 17:23:04 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/node-easymock/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>node-easymockでモックサーバーを立てる</title>
+      <link>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</link>
+      <pubDate>Tue, 21 Jun 2016 17:23:04 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</guid>
+      <description>
+
+&lt;h4 id=&#34;node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;node-easymock&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/cyberagent/node-easymock&#34;&gt;https://github.com/cyberagent/node-easymock&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;APIの仕様は固まっているが実装中などというシチュエーションにおいて、&lt;br&gt;
+サンプルデータをAPIの仕様にそって作成しておけば、APIが返すJSONを返してくれるモックサーバーが簡単に作るれるツールです。&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;モックサーバーを導入するモチベーション:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;モックサーバーを導入するモチベーション&lt;/h4&gt;
+
+&lt;p&gt;（自分が主導したわけではないのですが）&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;APIの実装はまだ時間がかかるが、&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;仕様はあらかた決まっているため、&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;APIに繋ぎこみを早く行いたい&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;使い方:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;使い方&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/cyberagent/node-easymock#usage&#34;&gt;本家のREADME&lt;/a&gt;だけで簡単にインストールできたのですが、&lt;br&gt;
+複数のデータをベタ書きではなく少しいい感じに作ろうとほんの少しだけ試行錯誤しました。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;lib/easymock/_templates/notice.json&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;noticeId&amp;quot;: &amp;quot;#{_1}&amp;quot;,
+  &amp;quot;noticeTitle&amp;quot;: &amp;quot;通知#{_1}&amp;quot;,
+  &amp;quot;noticeDetail&amp;quot;: &amp;quot;通知#{_1}の詳細&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;lib/easymock/me/notice/1_get.json&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;notice&amp;quot;: [
+    &amp;quot;{{notice(1)}}&amp;quot;,
+    &amp;quot;{{notice(2)}}&amp;quot;,
+    &amp;quot;{{notice(3)}}&amp;quot;
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;参考にしたREADMEは&lt;a href=&#34;https://github.com/cyberagent/node-easymock#parameters&#34;&gt;ここらへん&lt;/a&gt;です。&lt;br&gt;
+上記のデータだと引数が一つなので問題ないですが、例えばcategoryのように0: 学校, 1: 職場みたいなケースの場合、&lt;br&gt;
+&lt;code&gt;&amp;quot;{{notice(1, 0)&amp;quot;}}&lt;/code&gt;のようにするとデータと見ただけでは何をしているのか分からなくなってしまいます。&lt;br&gt;
+それを解決するために&lt;code&gt;config.json&lt;/code&gt;に変数を定義することができます。詳細は&lt;a href=&#34;https://github.com/cyberagent/node-easymock#configjson&#34;&gt;ここ&lt;/a&gt;に記載があります。&lt;br&gt;
+なるほど、変数を定義して&amp;hellip;と思ったらnoticeの引数に変数をセットしても式展開されずに難儀しました。&lt;br&gt;
+可読性も大切ですが、あくまでテストデータなので、ここで時間をかけるより他に時間をかけた方が良いことがある！と言い聞かせて、結局変数は使いませんでした。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/books/</link>
+    <description>Recent content in Books on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 10 Jul 2016 14:35:10 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>楽しいRubyを読んでみた</title>
+      <link>http://blog.tackeyy.org/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</link>
+      <pubDate>Sun, 10 Jul 2016 14:35:10 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</guid>
+      <description>
+
+&lt;h4 id=&#34;気づいたこと:559440eef9f1bed3ad0423ed4b4940fe&#34;&gt;気づいたこと&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;コメントアウトは &lt;code&gt;=begin =end&lt;/code&gt; で書ける&lt;/li&gt;
+&lt;li&gt;正規表現は、 ` /パターン/ =~ マッチングしたい文字列&lt;/li&gt;
+&lt;li&gt;メソッドのスコープをプログラム上で変更できる&lt;/li&gt;
+&lt;li&gt;alias,undef -&amp;gt; 継承先でこんなん使うとやばそう&lt;/li&gt;
+&lt;li&gt;ダックタイピングについて調べる&lt;/li&gt;
+&lt;li&gt;p.172 論理演算子の応用&lt;/li&gt;
+&lt;li&gt;範囲演算子&lt;/li&gt;
+&lt;li&gt;Proc引数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;javaと違うこと:559440eef9f1bed3ad0423ed4b4940fe&#34;&gt;Javaと違うこと&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Javaで言うMap（HashMap, TreeMapとかとか）をRubyではハッシュって言う&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;####&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;シンボルっていつ使うんや&lt;/li&gt;
+&lt;li&gt;loop, until, redoは使ったことない&lt;/li&gt;
+&lt;li&gt;関数的メソッドってなんや&lt;/li&gt;
+&lt;li&gt;ブロックつきメソッド yield p.117&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

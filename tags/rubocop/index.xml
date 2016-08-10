@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rubocop on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/rubocop/</link>
+    <description>Recent content in Rubocop on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Thu, 19 May 2016 07:47:12 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/rubocop/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RuboCopでコードの静的チェックをしてみた@ローカル</title>
+      <link>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</link>
+      <pubDate>Thu, 19 May 2016 07:47:12 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</guid>
+      <description>
+
+&lt;p&gt;参加しているプロジェクトでSideCIを用いてGitHub上にPushした時にRuboCopを走らせています。&lt;br&gt;
+&lt;a href=&#34;http://blog.tackeyy.org/post/2016-05-14/mailto-slack-from-sideci/&#34;&gt;SideCI（RuboCopの解析）の結果をSlack通知に通知する&lt;/a&gt;&lt;br&gt;
+上記の記事の通りRuboCopのチェック結果（ソースへのコメント）がSlackに流れてくるので、だんだんうざくなってきました。&lt;br&gt;
+たぶん自分でpushした結果が流れてくるならいいのですが、他の人からしたらうざったいだろうなと思い、ローカルでRuboCopを走らせるようにしました。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rubocopをインストール:c70d9faebd769dcef536a9856ec7f8be&#34;&gt;RuboCopをインストール&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bbatsov/rubocop#installation&#34;&gt;RuboCop&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;code&gt;gem install rubocop&lt;/code&gt; これだけ。&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rubocopの結果が見にくい:c70d9faebd769dcef536a9856ec7f8be&#34;&gt;RuboCopの結果が見にくい&lt;/h3&gt;
+
+&lt;p&gt;エディタはVimを使っているので、プラグインを探すと&lt;a href=&#34;https://github.com/ngmy/vim-rubocop&#34;&gt;こんなの&lt;/a&gt;があった。&lt;br&gt;
+プラグインはNeoBundleで管理しているので、以下の行を~/.vimrcに足して完了。&lt;br&gt;
+1. &lt;code&gt;NeoBundle &#39;ngmy/vim-rubocop&#39; &amp;quot;rubocop&lt;/code&gt;&lt;br&gt;
+1. &lt;code&gt;NeoBundleInstall&lt;/code&gt;&lt;br&gt;
+&lt;br&gt;
+あとは、&lt;code&gt;:RuboCop&lt;/code&gt;するだけ。&lt;br&gt;
+quickfix windowが開くので、普通にRuboCop走らせて修正するより楽になりました。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ほいじゃあの。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

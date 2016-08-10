@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/tips/</link>
+    <description>Recent content in Tips on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Wed, 27 Jul 2016 23:54:46 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
+      <link>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</link>
+      <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</guid>
+      <description>
+
+&lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
+
+&lt;h1 id=&#34;現在のoriginの状態を確認する:97683f8d8522e9fdeccf47f363039e79&#34;&gt;現在のoriginの状態を確認する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;sshに変更する:97683f8d8522e9fdeccf47f363039e79&#34;&gt;SSHに変更する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考:97683f8d8522e9fdeccf47f363039e79&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/changing-a-remote-s-url/&#34;&gt;https://help.github.com/articles/changing-a-remote-s-url/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>既存のディレクトリにrails newする</title>
+      <link>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</link>
+      <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</guid>
+      <description>
+
+&lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;コマンド:962c4973d6f910e32866bd7bc4d0cd23&#34;&gt;コマンド&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;rails new .&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考:962c4973d6f910e32866bd7bc4d0cd23&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ltcmdr927.hatenablog.jp/entry/2014/04/10/174333&#34;&gt;http://ltcmdr927.hatenablog.jp/entry/2014/04/10/174333&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;そもそもディレクトリを作ってからじゃなくて、 &lt;code&gt;git clone&lt;/code&gt; すれば良い話なんだけど。&lt;br&gt;
+&lt;br&gt;
+以上。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>git commitを取り消す</title>
+      <link>http://blog.tackeyy.org/2016/07/21/reset-git-commit</link>
+      <pubDate>Thu, 21 Jul 2016 15:50:21 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/21/reset-git-commit</guid>
+      <description>
+
+&lt;h1 id=&#34;間違えてdevelopにコミットしてもーた:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;間違えてdevelopにコミットしてもーた&lt;/h1&gt;
+
+&lt;p&gt;そんな時にいつもコミットの取り消し方をググるので備忘がてらメモ。&lt;/p&gt;
+
+&lt;h1 id=&#34;コミットを取り消してワークディレクトリはそのままにする:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;コミットを取り消してワークディレクトリはそのままにする&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;  git reset --soft HEAD^
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;コミットを取り消してワークディレクトリの内容も書き換える:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;コミットを取り消してワークディレクトリの内容も書き換える&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;  git reset --hard HEAD^
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;その他:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;その他&lt;/h1&gt;
+
+&lt;p&gt;説明されてるページ見つけた。&lt;br&gt;
+&lt;a href=&#34;http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468&#34;&gt;http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

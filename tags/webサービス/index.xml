@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webサービス on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/</link>
+    <description>Recent content in Webサービス on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Thu, 12 May 2016 23:42:49 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/web%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>これ読んどけ.com</title>
+      <link>http://blog.tackeyy.org/2016/05/12/koreyondoke-com</link>
+      <pubDate>Thu, 12 May 2016 23:42:49 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/12/koreyondoke-com</guid>
+      <description>
+
+&lt;p&gt;思いついたアイディアをメモ。&lt;br&gt;
+スケールはしなさそうだけど、個人的にあったら使うかも。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;これ読んどけ-com:00e62d1205ac1d61d9deb46c87a2d537&#34;&gt;これ読んどけ.com&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;概要
+
+&lt;ul&gt;
+&lt;li&gt;ある人のお勧め書籍一覧で見れるSNSライクなイメージ
+
+&lt;ul&gt;
+&lt;li&gt;e.g
+
+&lt;ul&gt;
+&lt;li&gt;営業でお勧めの本リスト&lt;/li&gt;
+&lt;li&gt;railsのお勧めの本リスト&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ユーザー
+
+&lt;ul&gt;
+&lt;li&gt;先輩
+
+&lt;ul&gt;
+&lt;li&gt;ある分野のお勧めの本（これ読んどけ）を追加する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;後輩
+
+&lt;ul&gt;
+&lt;li&gt;先輩が作った「これ読んどけリスト」を閲覧、コメントなど
+
+&lt;ul&gt;
+&lt;li&gt;後輩はある分野の未経験者、初心者（新社会人、新米エンジニアなど）などを想定&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解決する問題
+
+&lt;ul&gt;
+&lt;li&gt;先輩
+
+&lt;ul&gt;
+&lt;li&gt;「〇〇について勉強したいのですが、何読めばいいですか」って聞かれていちいち回答する時間が面倒&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;後輩
+
+&lt;ul&gt;
+&lt;li&gt;ある分野で著名な本を知る手段が少ない
+
+&lt;ul&gt;
+&lt;li&gt;ビジネスならプレジデントの書籍リストを見る&lt;/li&gt;
+&lt;li&gt;人に聞く&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;教えてもらった書籍のタイトルをメモるのだるい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解決策
+
+&lt;ul&gt;
+&lt;li&gt;ネット上にある人のお勧め本一覧を作ってもらい、そのURLを後輩にシェアする
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

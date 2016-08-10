@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gem on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/gem/</link>
+    <description>Recent content in Gem on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Fri, 20 May 2016 14:29:04 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/gem/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>carrierwaveを使ってlocalに画像をuploadする</title>
+      <link>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</link>
+      <pubDate>Fri, 20 May 2016 14:29:04 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</guid>
+      <description>
+
+&lt;p&gt;備忘のために&lt;a href=&#34;https://github.com/carrierwaveuploader/carrierwave&#34;&gt;carrierwave&lt;/a&gt;を使って、ローカルに画像をアップロードする手順を記しておきます。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;rails 4.2&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;手順:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;手順&lt;/h3&gt;
+
+&lt;p&gt;GemのREADMEに記載があるのでインストールは飛ばします。&lt;br&gt;
+詳しい手順はREADMEや&lt;a href=&#34;http://morizyun.github.io/blog/carrierwave-image-uploader-rails/&#34;&gt;ここ&lt;/a&gt;などにもあります。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;1-コントローラーを作る:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;1.コントローラーを作る&lt;/h3&gt;
+
+&lt;p&gt;ポリモーフィック関連で実装しているので、imageという名前でuploaderを作成します。
+&lt;br&gt;
+&lt;code&gt;rails generate uploader image&lt;/code&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;最小限の機能で良いので、上記のコマンドで作成されたimage_uploader.rbを&lt;a href=&#34;https://gyazo.com/f490ad33743aabb0123119a873feb330&#34;&gt;こんな感じ&lt;/a&gt;にします。&lt;br&gt;
+image_uploader.rbのパスは画像の左下に出てます。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-モデルを修正する:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;2.モデルを修正する&lt;/h3&gt;
+
+&lt;p&gt;以下の★ の箇所を追記します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Image &amp;lt; ActiveRecord::Base
+  acts_as_paranoid
+
+  ★ mount_uploader :image, ImageUploader
+  belongs_to :imageable, polymorphic: true
+  ★ belongs_to :user, polymorphic: true
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;なぜかmodels/userにuploaderをmountしていたので、Images.imageに#ActionDispatch::Http::UploadedFileほにゃららという文字列が入ってうまく画像をupdateできずに相当はまりました&amp;hellip;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-ビューを修正する:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;3. ビューを修正する&lt;/h3&gt;
+
+&lt;p&gt;views/users/_form.html.erb&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;user has one image なので、user.image.image_urlで画像のURLを取得します。&lt;br&gt;
+has_manyの場合は、user.images.first.image_urlとかeachでimagesを回してimage_urlとかでURLが取得できます。&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;% if user.image.image_url.nil? %&amp;gt;
+  &amp;lt;%= image_tag &#39;no_image.jpg&#39;, size: &#39;270x300&#39; %&amp;gt;
+  &amp;lt;%= f.file_field :image %&amp;gt;
+  &amp;lt;% else %&amp;gt;
+  &amp;lt;%= image_tag user.image.image_url %&amp;gt;
+&amp;lt;% end %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;画像を削除する:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;画像を削除する&lt;/h4&gt;
+
+&lt;p&gt;READMEに記載がある通り、remove_imageを使います。&lt;br&gt;
+viewを以下の通りにするだけで保存時に画像が削除されます。&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;label&amp;gt;
+  &amp;lt;%= check_box :remove_image, user.image.remove_image %&amp;gt;
+  画像を削除する
+&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;todo:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;TODO&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;画像アップロード時にプレビューを表示する&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;以下を試してみる
+&lt;a href=&#34;http://morizyun.github.io/blog/carrierwave-image-uploader-rails/&#34;&gt;http://morizyun.github.io/blog/carrierwave-image-uploader-rails/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;画像削除のチェックボックスにレが入った時に画像を見えなくする&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ほいじゃあの&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sorceryのREADMEを読んでみた</title>
+      <link>http://blog.tackeyy.org/2016/05/15/read-sorcery-readme</link>
+      <pubDate>Sun, 15 May 2016 18:11:00 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/15/read-sorcery-readme</guid>
+      <description>
+
+&lt;p&gt;sorceryは僕が携わっているプロジェクトで使用されていたりする身近な存在ではあったのですが、&lt;br&gt;
+プロジェクト開始時にPMの方が最初にひな形を作ってくださるので（認証周りも含めて）、sorceryは直接的に触ったことはありませんでした。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;有名なGemなので色々なブログで導入手順などはまとまってたりするのですが、そもそもsorceryって？というところを把握したくて&lt;a href=&#34;https://github.com/NoamB/sorcery&#34;&gt;README&lt;/a&gt;を読んでみることにしました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;sorcery:3c4eb0da7fb97422d24a60b33c2c0df9&#34;&gt;sorcery&lt;/h3&gt;
+
+&lt;p&gt;rails3,4 の魔法の認証機能を提供するgem。&lt;/p&gt;
+
+&lt;h3 id=&#34;philosophy:3c4eb0da7fb97422d24a60b33c2c0df9&#34;&gt;philosophy&lt;/h3&gt;
+
+&lt;p&gt;自分自身の認証フローにおける重要で最小限の認証の機構。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;以下の単語は知らなかった。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;stripped-down&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;bare-bones&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

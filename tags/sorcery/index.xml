@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sorcery on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/sorcery/</link>
+    <description>Recent content in Sorcery on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 15 May 2016 18:11:00 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/sorcery/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>sorceryのREADMEを読んでみた</title>
+      <link>http://blog.tackeyy.org/2016/05/15/read-sorcery-readme</link>
+      <pubDate>Sun, 15 May 2016 18:11:00 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/15/read-sorcery-readme</guid>
+      <description>
+
+&lt;p&gt;sorceryは僕が携わっているプロジェクトで使用されていたりする身近な存在ではあったのですが、&lt;br&gt;
+プロジェクト開始時にPMの方が最初にひな形を作ってくださるので（認証周りも含めて）、sorceryは直接的に触ったことはありませんでした。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;有名なGemなので色々なブログで導入手順などはまとまってたりするのですが、そもそもsorceryって？というところを把握したくて&lt;a href=&#34;https://github.com/NoamB/sorcery&#34;&gt;README&lt;/a&gt;を読んでみることにしました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;sorcery:3c4eb0da7fb97422d24a60b33c2c0df9&#34;&gt;sorcery&lt;/h3&gt;
+
+&lt;p&gt;rails3,4 の魔法の認証機能を提供するgem。&lt;/p&gt;
+
+&lt;h3 id=&#34;philosophy:3c4eb0da7fb97422d24a60b33c2c0df9&#34;&gt;philosophy&lt;/h3&gt;
+
+&lt;p&gt;自分自身の認証フローにおける重要で最小限の認証の機構。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;以下の単語は知らなかった。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;stripped-down&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;bare-bones&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

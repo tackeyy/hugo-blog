@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ideas on F.C. BigDecimal </title>
+    <link>http://blog.tackeyy.org/tags/ideas/</link>
+    <description>Recent content in Ideas on F.C. BigDecimal </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 16 Jul 2016 18:48:19 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/ideas/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ペットのトリミングサロンをまとめたウェブサイト</title>
+      <link>http://blog.tackeyy.org/2016/07/16/%E3%83%9A%E3%83%83%E3%83%88%E3%81%AE%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%AD%E3%83%B3%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%9F%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88</link>
+      <pubDate>Sat, 16 Jul 2016 18:48:19 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/16/%E3%83%9A%E3%83%83%E3%83%88%E3%81%AE%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%B5%E3%83%AD%E3%83%B3%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%9F%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%82%A4%E3%83%88</guid>
+      <description>
+
+&lt;h1 id=&#34;サイト名:fffba3e5c412f84190627849868b7a95&#34;&gt;サイト名&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HotPetBeauty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;要件:fffba3e5c412f84190627849868b7a95&#34;&gt;要件&lt;/h1&gt;
+
+&lt;h2 id=&#34;user:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ペットサロンを探すことができる
+
+&lt;ul&gt;
+&lt;li&gt;都道府県、市区町村から探せる&lt;/li&gt;
+&lt;li&gt;最寄駅から探せる&lt;/li&gt;
+&lt;li&gt;評価が高いサロンを探せる&lt;/li&gt;
+&lt;li&gt;予算から探せる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;お店の情報を確認することができる
+
+&lt;ul&gt;
+&lt;li&gt;サロン名や住所を確認できる&lt;/li&gt;
+&lt;li&gt;店内やトリミング後のペットの写真を確認できる&lt;/li&gt;
+&lt;li&gt;メニューを確認できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;サロン予約ができる&lt;/li&gt;
+&lt;li&gt;各店舗に問い合わせができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;admin:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;店舗情報やメニューを編集することができる&lt;/li&gt;
+&lt;li&gt;予約管理ができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;mvp:fffba3e5c412f84190627849868b7a95&#34;&gt;MVP&lt;/h1&gt;
+
+&lt;h2 id=&#34;user-1:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ペットサロンを探すことができる
+
+&lt;ul&gt;
+&lt;li&gt;特定の区で探すことができる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;admin-1:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;特になし&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アイディア on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/categories/%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A3%E3%82%A2/</link>
+    <description>Recent content in アイディア on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sat, 16 Jul 2016 18:48:19 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/categories/%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A3%E3%82%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ペットのトリミングサロンをまとめたウェブサイト</title>
+      <link>http://blog.tackeyy.org/2016/07/16/pet-trimming-salons</link>
+      <pubDate>Sat, 16 Jul 2016 18:48:19 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/16/pet-trimming-salons</guid>
+      <description>
+
+&lt;h1 id=&#34;サイト名:fffba3e5c412f84190627849868b7a95&#34;&gt;サイト名&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HotPetBeauty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;要件:fffba3e5c412f84190627849868b7a95&#34;&gt;要件&lt;/h1&gt;
+
+&lt;h2 id=&#34;user:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ペットサロンを探すことができる
+
+&lt;ul&gt;
+&lt;li&gt;都道府県、市区町村から探せる&lt;/li&gt;
+&lt;li&gt;最寄駅から探せる&lt;/li&gt;
+&lt;li&gt;評価が高いサロンを探せる&lt;/li&gt;
+&lt;li&gt;予算から探せる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;お店の情報を確認することができる
+
+&lt;ul&gt;
+&lt;li&gt;サロン名や住所を確認できる&lt;/li&gt;
+&lt;li&gt;店内やトリミング後のペットの写真を確認できる&lt;/li&gt;
+&lt;li&gt;メニューを確認できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;サロン予約ができる&lt;/li&gt;
+&lt;li&gt;各店舗に問い合わせができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;admin:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;店舗情報やメニューを編集することができる&lt;/li&gt;
+&lt;li&gt;予約管理ができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;mvp:fffba3e5c412f84190627849868b7a95&#34;&gt;MVP&lt;/h1&gt;
+
+&lt;h2 id=&#34;user-1:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ペットサロンを探すことができる
+
+&lt;ul&gt;
+&lt;li&gt;特定の区で探すことができる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;admin-1:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;特になし&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>調整さんxフットサル大会自動予約</title>
+      <link>http://blog.tackeyy.org/2016/06/22/auto-reservation-with-choseisan</link>
+      <pubDate>Wed, 22 Jun 2016 15:01:24 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/22/auto-reservation-with-choseisan</guid>
+      <description>
+
+&lt;h4 id=&#34;概要:c1e7f5aef051e978a710a76015b92d66&#34;&gt;概要&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;幹事がエリアと候補日時を決めると発行されるURLをメンバーに送り、&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;日時がFIXされると条件にあったフットサル大会に自動申し込みできるサービス&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;幹事の仕事:c1e7f5aef051e978a710a76015b92d66&#34;&gt;幹事の仕事&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;日程調整&lt;/li&gt;
+&lt;li&gt;条件に合わせたフットサル大会選び&lt;/li&gt;
+&lt;li&gt;予約
+
+&lt;ol&gt;
+&lt;li&gt;媒体に合わせて会員登録&lt;/li&gt;
+&lt;li&gt;決済方法選択&lt;/li&gt;
+&lt;li&gt;クレジットの場合はデータ入力&lt;/li&gt;
+&lt;li&gt;その他の場合は振り込み作業等&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;解決する幹事の負担:c1e7f5aef051e978a710a76015b92d66&#34;&gt;解決する幹事の負担&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日程調整後の大会探し〜予約
+
+&lt;ul&gt;
+&lt;li&gt;既存のサイトの検索性が悪くて辟易&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;その他:c1e7f5aef051e978a710a76015b92d66&#34;&gt;その他&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;こういうサービスがあれば使いたい&lt;/li&gt;
+&lt;li&gt;できれば決済もLineやGoogleなどの既存のアカウント（やクレジット情報）で完結させて欲しい&lt;/li&gt;
+&lt;li&gt;以下のような場合は使うのやめると思う
+
+&lt;ul&gt;
+&lt;li&gt;大会出てこんやんけ！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>これ読んどけ.com</title>
+      <link>http://blog.tackeyy.org/2016/05/12/koreyondoke-com</link>
+      <pubDate>Thu, 12 May 2016 23:42:49 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/12/koreyondoke-com</guid>
+      <description>
+
+&lt;p&gt;思いついたアイディアをメモ。&lt;br&gt;
+スケールはしなさそうだけど、個人的にあったら使うかも。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;これ読んどけ-com:00e62d1205ac1d61d9deb46c87a2d537&#34;&gt;これ読んどけ.com&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;概要
+
+&lt;ul&gt;
+&lt;li&gt;ある人のお勧め書籍一覧で見れるSNSライクなイメージ
+
+&lt;ul&gt;
+&lt;li&gt;e.g
+
+&lt;ul&gt;
+&lt;li&gt;営業でお勧めの本リスト&lt;/li&gt;
+&lt;li&gt;railsのお勧めの本リスト&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ユーザー
+
+&lt;ul&gt;
+&lt;li&gt;先輩
+
+&lt;ul&gt;
+&lt;li&gt;ある分野のお勧めの本（これ読んどけ）を追加する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;後輩
+
+&lt;ul&gt;
+&lt;li&gt;先輩が作った「これ読んどけリスト」を閲覧、コメントなど
+
+&lt;ul&gt;
+&lt;li&gt;後輩はある分野の未経験者、初心者（新社会人、新米エンジニアなど）などを想定&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解決する問題
+
+&lt;ul&gt;
+&lt;li&gt;先輩
+
+&lt;ul&gt;
+&lt;li&gt;「〇〇について勉強したいのですが、何読めばいいですか」って聞かれていちいち回答する時間が面倒&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;後輩
+
+&lt;ul&gt;
+&lt;li&gt;ある分野で著名な本を知る手段が少ない
+
+&lt;ul&gt;
+&lt;li&gt;ビジネスならプレジデントの書籍リストを見る&lt;/li&gt;
+&lt;li&gt;人に聞く&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;教えてもらった書籍のタイトルをメモるのだるい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;解決策
+
+&lt;ul&gt;
+&lt;li&gt;ネット上にある人のお勧め本一覧を作ってもらい、そのURLを後輩にシェアする
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

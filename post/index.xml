@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/post/</link>
+    <description>Recent content in Posts on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 07 Aug 2016 23:42:49 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>[WIP]Rubyってgetterをいちいち書かなくて良いということを学んだ</title>
+      <link>http://blog.tackeyy.org/2016/08/07/unnecessary-getter-and-setter-with-ruby</link>
+      <pubDate>Sun, 07 Aug 2016 23:42:49 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/08/07/unnecessary-getter-and-setter-with-ruby</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rspecでテストを書くときの雛形</title>
+      <link>http://blog.tackeyy.org/2016/08/01/rspec-template</link>
+      <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/08/01/rspec-template</guid>
+      <description>
+
+&lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;
+処理がほぼ同じなのであれば、雛形があった方が実装が早いので、雛形をメモしておく次第です。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;携わっているプロジェクトのコードですが(一部変更しています）、以下の点より業務に影響がないと判断しています。&lt;br&gt;
+* adminは大体どのプロジェクトでも存在している（かつ特殊な処理を書いてない）&lt;br&gt;
+* プロジェクトが特定される内容がない&lt;/p&gt;
+
+&lt;h1 id=&#34;spec-controllers-rb:6ff7868729b37970419ff4b78ee766c0&#34;&gt;spec/controllers/&lt;strong&gt;/&lt;/strong&gt;.rb&lt;/h1&gt;
+
+&lt;h2 id=&#34;普通のspecテストの雛形:6ff7868729b37970419ff4b78ee766c0&#34;&gt;普通のspecテストの雛形&lt;/h2&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/12d39610347ec2538481a18ce28d5ae5.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;rspec-x-factorygirl:6ff7868729b37970419ff4b78ee766c0&#34;&gt;Rspec x FactoryGirl&lt;/h2&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/f62dc34f6c037f6edde8fa8cbef05110.js&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;spec-models-rb:6ff7868729b37970419ff4b78ee766c0&#34;&gt;spec/models/*.rb&lt;/h1&gt;
+
+&lt;h2 id=&#34;普通のspecテストの雛形-1:6ff7868729b37970419ff4b78ee766c0&#34;&gt;普通のspecテストの雛形&lt;/h2&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/8ce63b57638f2fc58f046e2b63a23f70.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;rspec-x-factorygirl-x-webmock:6ff7868729b37970419ff4b78ee766c0&#34;&gt;Rspec x FactoryGirl x WebMock&lt;/h2&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/05e71aadfa4cdbee157820c8553a2111.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Macの移行アシスタントを使用せずにiTunesを移行する方法</title>
+      <link>http://blog.tackeyy.org/2016/07/31/mac%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9B%E3%81%9A%E3%81%ABitunes%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95</link>
+      <pubDate>Sun, 31 Jul 2016 19:00:26 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/31/mac%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9B%E3%81%9A%E3%81%ABitunes%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95</guid>
+      <description>
+
+&lt;h2 id=&#34;macの移行アシスタントを使わずにitunesの移行方法について:079113c14c373534b5c63a78165fc622&#34;&gt;Macの移行アシスタントを使わずにiTunesの移行方法について&lt;/h2&gt;
+
+&lt;p&gt;path忘れちゃいそうなのでメモ。&lt;/p&gt;
+
+&lt;h4 id=&#34;やり方:079113c14c373534b5c63a78165fc622&#34;&gt;やり方&lt;/h4&gt;
+
+&lt;p&gt;以下の階層に全て音楽が入っているので移行元からデータを取ってきて移行先にコピーするだけ。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/Users/{user_name}/Music/iTunes/iTunes Media&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
+      <link>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</link>
+      <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</guid>
+      <description>
+
+&lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
+
+&lt;h1 id=&#34;現在のoriginの状態を確認する:97683f8d8522e9fdeccf47f363039e79&#34;&gt;現在のoriginの状態を確認する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;sshに変更する:97683f8d8522e9fdeccf47f363039e79&#34;&gt;SSHに変更する&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考:97683f8d8522e9fdeccf47f363039e79&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://help.github.com/articles/changing-a-remote-s-url/&#34;&gt;https://help.github.com/articles/changing-a-remote-s-url/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>既存のディレクトリにrails newする</title>
+      <link>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</link>
+      <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</guid>
+      <description>
+
+&lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;コマンド:962c4973d6f910e32866bd7bc4d0cd23&#34;&gt;コマンド&lt;/h1&gt;
+
+&lt;p&gt;&lt;code&gt;rails new .&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;参考:962c4973d6f910e32866bd7bc4d0cd23&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ltcmdr927.hatenablog.jp/entry/2014/04/10/174333&#34;&gt;http://ltcmdr927.hatenablog.jp/entry/2014/04/10/174333&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;そもそもディレクトリを作ってからじゃなくて、 &lt;code&gt;git clone&lt;/code&gt; すれば良い話なんだけど。&lt;br&gt;
+&lt;br&gt;
+以上。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[WIP] graphvizでER図を書いてみる</title>
+      <link>http://blog.tackeyy.org/2016/07/22/write-er-with-graphviz</link>
+      <pubDate>Fri, 22 Jul 2016 21:34:47 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/22/write-er-with-graphviz</guid>
+      <description>
+
+&lt;p&gt;個人のプロジェクトでテーブルレイアウトを作成したいと思いツールを探している時に&lt;br&gt;
+&lt;a href=&#34;http://www.graphviz.org/&#34;&gt;graphviz&lt;/a&gt;というフローチャートやER図を描画するオープンソースのソフトウェアを見つけました。&lt;/p&gt;
+
+&lt;p&gt;dot言語と言われる言語で&lt;code&gt;*.dot&lt;/code&gt;を作成して、&lt;code&gt;dot&lt;/code&gt;コマンドでコンパイルしてグラフを作成するようです。&lt;br&gt;
+キャッチアップしてもすぐにコマンドなどを忘れてしまうので、概要から使い方まで簡単にメモしたいと思います。&lt;/p&gt;
+
+&lt;p&gt;上記の他にも、下記のIndexに記載しているような内容がすぐに見つからずに、いつくかサイトを行き来したという経験もメモを残す動機になっています。&lt;br&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;環境:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;環境&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OS X El Capitan 10.11.4&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;index:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;Index&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;graphvizとは？&lt;/li&gt;
+&lt;li&gt;グラフ生成までのワークフロー&lt;/li&gt;
+&lt;li&gt;graphvizをインストールする&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*.dot&lt;/code&gt;ファイルを作成する&lt;/li&gt;
+&lt;li&gt;サンプルとして簡単な図を描いてみる&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*.dot&lt;/code&gt;ファイルをコンパイルする&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;graphvizとは:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;graphvizとは？&lt;/h1&gt;
+
+&lt;p&gt;他の人の説明の方が上手なので引用します。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.graphviz.org/&#34;&gt;Graphviz&lt;/a&gt; は、人や物のネットワーク、フローチャート、系統樹などに適したグラフ描画ツールです。Windows、Mac、Linux など多くの OS で利用できます。
+&lt;a href=&#34;http://www.showa-corp.jp/special/graphtools/graphviz.html&#34;&gt;http://www.showa-corp.jp/special/graphtools/graphviz.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;グラフ生成までのワークフロー:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;グラフ生成までのワークフロー&lt;/h1&gt;
+
+&lt;h1 id=&#34;graphvizをインストールする:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;graphvizをインストールする&lt;/h1&gt;
+
+&lt;h1 id=&#34;dot-ファイルを作成する:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;&lt;code&gt;*.dot&lt;/code&gt;ファイルを作成する&lt;/h1&gt;
+
+&lt;h1 id=&#34;サンプルとして簡単な図を描いてみる:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;サンプルとして簡単な図を描いてみる&lt;/h1&gt;
+
+&lt;h1 id=&#34;dot-ファイルをコンパイルする:c3f4b7f9fe75db9f39b0e9cb361c93c6&#34;&gt;&lt;code&gt;*.dot&lt;/code&gt;ファイルをコンパイルする&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>git commitを取り消す</title>
+      <link>http://blog.tackeyy.org/2016/07/21/reset-git-commit</link>
+      <pubDate>Thu, 21 Jul 2016 15:50:21 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/21/reset-git-commit</guid>
+      <description>
+
+&lt;h1 id=&#34;間違えてdevelopにコミットしてもーた:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;間違えてdevelopにコミットしてもーた&lt;/h1&gt;
+
+&lt;p&gt;そんな時にいつもコミットの取り消し方をググるので備忘がてらメモ。&lt;/p&gt;
+
+&lt;h1 id=&#34;コミットを取り消してワークディレクトリはそのままにする:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;コミットを取り消してワークディレクトリはそのままにする&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;  git reset --soft HEAD^
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;コミットを取り消してワークディレクトリの内容も書き換える:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;コミットを取り消してワークディレクトリの内容も書き換える&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;  git reset --hard HEAD^
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;その他:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;その他&lt;/h1&gt;
+
+&lt;p&gt;説明されてるページ見つけた。&lt;br&gt;
+&lt;a href=&#34;http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468&#34;&gt;http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ペットのトリミングサロンをまとめたウェブサイト</title>
+      <link>http://blog.tackeyy.org/2016/07/16/pet-trimming-salons</link>
+      <pubDate>Sat, 16 Jul 2016 18:48:19 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/16/pet-trimming-salons</guid>
+      <description>
+
+&lt;h1 id=&#34;サイト名:fffba3e5c412f84190627849868b7a95&#34;&gt;サイト名&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HotPetBeauty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;要件:fffba3e5c412f84190627849868b7a95&#34;&gt;要件&lt;/h1&gt;
+
+&lt;h2 id=&#34;user:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ペットサロンを探すことができる
+
+&lt;ul&gt;
+&lt;li&gt;都道府県、市区町村から探せる&lt;/li&gt;
+&lt;li&gt;最寄駅から探せる&lt;/li&gt;
+&lt;li&gt;評価が高いサロンを探せる&lt;/li&gt;
+&lt;li&gt;予算から探せる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;お店の情報を確認することができる
+
+&lt;ul&gt;
+&lt;li&gt;サロン名や住所を確認できる&lt;/li&gt;
+&lt;li&gt;店内やトリミング後のペットの写真を確認できる&lt;/li&gt;
+&lt;li&gt;メニューを確認できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;サロン予約ができる&lt;/li&gt;
+&lt;li&gt;各店舗に問い合わせができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;admin:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;店舗情報やメニューを編集することができる&lt;/li&gt;
+&lt;li&gt;予約管理ができる&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;mvp:fffba3e5c412f84190627849868b7a95&#34;&gt;MVP&lt;/h1&gt;
+
+&lt;h2 id=&#34;user-1:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ペットサロンを探すことができる
+
+&lt;ul&gt;
+&lt;li&gt;特定の区で探すことができる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;admin-1:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;特になし&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>楽しいRubyを読んでみた</title>
+      <link>http://blog.tackeyy.org/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</link>
+      <pubDate>Sun, 10 Jul 2016 14:35:10 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</guid>
+      <description>
+
+&lt;h4 id=&#34;気づいたこと:559440eef9f1bed3ad0423ed4b4940fe&#34;&gt;気づいたこと&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;コメントアウトは &lt;code&gt;=begin =end&lt;/code&gt; で書ける&lt;/li&gt;
+&lt;li&gt;正規表現は、 ` /パターン/ =~ マッチングしたい文字列&lt;/li&gt;
+&lt;li&gt;メソッドのスコープをプログラム上で変更できる&lt;/li&gt;
+&lt;li&gt;alias,undef -&amp;gt; 継承先でこんなん使うとやばそう&lt;/li&gt;
+&lt;li&gt;ダックタイピングについて調べる&lt;/li&gt;
+&lt;li&gt;p.172 論理演算子の応用&lt;/li&gt;
+&lt;li&gt;範囲演算子&lt;/li&gt;
+&lt;li&gt;Proc引数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;javaと違うこと:559440eef9f1bed3ad0423ed4b4940fe&#34;&gt;Javaと違うこと&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Javaで言うMap（HashMap, TreeMapとかとか）をRubyではハッシュって言う&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;####&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;シンボルっていつ使うんや&lt;/li&gt;
+&lt;li&gt;loop, until, redoは使ったことない&lt;/li&gt;
+&lt;li&gt;関数的メソッドってなんや&lt;/li&gt;
+&lt;li&gt;ブロックつきメソッド yield p.117&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>調整さんxフットサル大会自動予約</title>
+      <link>http://blog.tackeyy.org/2016/06/22/auto-reservation-with-choseisan</link>
+      <pubDate>Wed, 22 Jun 2016 15:01:24 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/22/auto-reservation-with-choseisan</guid>
+      <description>
+
+&lt;h4 id=&#34;概要:c1e7f5aef051e978a710a76015b92d66&#34;&gt;概要&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;幹事がエリアと候補日時を決めると発行されるURLをメンバーに送り、&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;日時がFIXされると条件にあったフットサル大会に自動申し込みできるサービス&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;幹事の仕事:c1e7f5aef051e978a710a76015b92d66&#34;&gt;幹事の仕事&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;日程調整&lt;/li&gt;
+&lt;li&gt;条件に合わせたフットサル大会選び&lt;/li&gt;
+&lt;li&gt;予約
+
+&lt;ol&gt;
+&lt;li&gt;媒体に合わせて会員登録&lt;/li&gt;
+&lt;li&gt;決済方法選択&lt;/li&gt;
+&lt;li&gt;クレジットの場合はデータ入力&lt;/li&gt;
+&lt;li&gt;その他の場合は振り込み作業等&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;解決する幹事の負担:c1e7f5aef051e978a710a76015b92d66&#34;&gt;解決する幹事の負担&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日程調整後の大会探し〜予約
+
+&lt;ul&gt;
+&lt;li&gt;既存のサイトの検索性が悪くて辟易&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;その他:c1e7f5aef051e978a710a76015b92d66&#34;&gt;その他&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;こういうサービスがあれば使いたい&lt;/li&gt;
+&lt;li&gt;できれば決済もLineやGoogleなどの既存のアカウント（やクレジット情報）で完結させて欲しい&lt;/li&gt;
+&lt;li&gt;以下のような場合は使うのやめると思う
+
+&lt;ul&gt;
+&lt;li&gt;大会出てこんやんけ！&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>node-easymockでモックサーバーを立てる</title>
+      <link>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</link>
+      <pubDate>Tue, 21 Jun 2016 17:23:04 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</guid>
+      <description>
+
+&lt;h4 id=&#34;node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;node-easymock&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/cyberagent/node-easymock&#34;&gt;https://github.com/cyberagent/node-easymock&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;APIの仕様は固まっているが実装中などというシチュエーションにおいて、&lt;br&gt;
+サンプルデータをAPIの仕様にそって作成しておけば、APIが返すJSONを返してくれるモックサーバーが簡単に作るれるツールです。&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;モックサーバーを導入するモチベーション:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;モックサーバーを導入するモチベーション&lt;/h4&gt;
+
+&lt;p&gt;（自分が主導したわけではないのですが）&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;APIの実装はまだ時間がかかるが、&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;仕様はあらかた決まっているため、&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;APIに繋ぎこみを早く行いたい&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;使い方:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;使い方&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/cyberagent/node-easymock#usage&#34;&gt;本家のREADME&lt;/a&gt;だけで簡単にインストールできたのですが、&lt;br&gt;
+複数のデータをベタ書きではなく少しいい感じに作ろうとほんの少しだけ試行錯誤しました。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;lib/easymock/_templates/notice.json&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;noticeId&amp;quot;: &amp;quot;#{_1}&amp;quot;,
+  &amp;quot;noticeTitle&amp;quot;: &amp;quot;通知#{_1}&amp;quot;,
+  &amp;quot;noticeDetail&amp;quot;: &amp;quot;通知#{_1}の詳細&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;lib/easymock/me/notice/1_get.json&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+  &amp;quot;notice&amp;quot;: [
+    &amp;quot;{{notice(1)}}&amp;quot;,
+    &amp;quot;{{notice(2)}}&amp;quot;,
+    &amp;quot;{{notice(3)}}&amp;quot;
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;参考にしたREADMEは&lt;a href=&#34;https://github.com/cyberagent/node-easymock#parameters&#34;&gt;ここらへん&lt;/a&gt;です。&lt;br&gt;
+上記のデータだと引数が一つなので問題ないですが、例えばcategoryのように0: 学校, 1: 職場みたいなケースの場合、&lt;br&gt;
+&lt;code&gt;&amp;quot;{{notice(1, 0)&amp;quot;}}&lt;/code&gt;のようにするとデータと見ただけでは何をしているのか分からなくなってしまいます。&lt;br&gt;
+それを解決するために&lt;code&gt;config.json&lt;/code&gt;に変数を定義することができます。詳細は&lt;a href=&#34;https://github.com/cyberagent/node-easymock#configjson&#34;&gt;ここ&lt;/a&gt;に記載があります。&lt;br&gt;
+なるほど、変数を定義して&amp;hellip;と思ったらnoticeの引数に変数をセットしても式展開されずに難儀しました。&lt;br&gt;
+可読性も大切ですが、あくまでテストデータなので、ここで時間をかけるより他に時間をかけた方が良いことがある！と言い聞かせて、結局変数は使いませんでした。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>モンキーパッチ</title>
+      <link>http://blog.tackeyy.org/2016/06/14/monkey-patch</link>
+      <pubDate>Tue, 14 Jun 2016 20:28:37 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/14/monkey-patch</guid>
+      <description>
+
+&lt;p&gt;社内の方が&lt;a href=&#34;https://github.com/t-k/gmo-payment-ruby&#34;&gt;gmo-payment-ruby&lt;/a&gt;にあてたモンキーパッチを紹介されていました。&lt;br&gt;
+前職ではJavaを主に使っていて、外部のライブラリを使用するというよりも自社で自社仕様のライブラリを使う（もしくは作る）方が多かったので、&lt;br&gt;
+今回初めてモンキーパッチという言葉を聞きました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;モンキーパッチ:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;モンキーパッチ&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;モンキーパッチは、オリジナルのソースコードを変更することなく、実行時に動的言語(例えばSmalltalk, JavaScript, Objective-C, Ruby, Perl, Python, Groovy, など)のコードを拡張したり、変更したりする方法である。
+&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%83%E3%83%81&#34;&gt;Wiki&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;方法:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;方法&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;紹介されたモンキーパッチでは、class_eval, module_eval (Module)を使用して実装していました&lt;br&gt;
+&lt;a href=&#34;http://ref.xaio.jp/ruby/classes/module/class_eval&#34;&gt;http://ref.xaio.jp/ruby/classes/module/class_eval&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;話を受けて思ったこと:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;話を受けて思ったこと&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;モンキーパッチが呼び出されていることをコード見ただけでわかるか？&lt;br&gt;
+運用・保守を行うフェーズを想定すると上記の観点を満たせるか、という点が大事になる気がしました。&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>これだけあればブログを書けるHugoの3つのコマンド</title>
+      <link>http://blog.tackeyy.org/2016/06/14/hugo-commands</link>
+      <pubDate>Tue, 14 Jun 2016 20:12:54 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/06/14/hugo-commands</guid>
+      <description>
+
+&lt;h3 id=&#34;普段使う-というよりもこれ以外使ってない-コマンド3選:0cd16b54df007c4eb14eef8cde24f476&#34;&gt;普段使う（というよりもこれ以外使ってない）コマンド3選&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;記事追加&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new post/yyyy-mm-dd_title.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;年月日は好みで入れてます。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サーバー起動&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -t angels-ladder -D -w
+hugo server -t hugo-icarus-theme -D -w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;-D ・・・ ドラフトも起動する&lt;br&gt;
+-W ・・・ 保存時にページをリロード&lt;br&gt;
+angels-ladder ・・・ layout名&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;デプロイ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo -t angels-ladder
+hugo -t hugo-icarus-theme
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>carrierwaveを使ってlocalに画像をuploadする</title>
+      <link>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</link>
+      <pubDate>Fri, 20 May 2016 14:29:04 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</guid>
+      <description>
+
+&lt;p&gt;備忘のために&lt;a href=&#34;https://github.com/carrierwaveuploader/carrierwave&#34;&gt;carrierwave&lt;/a&gt;を使って、ローカルに画像をアップロードする手順を記しておきます。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;rails 4.2&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;手順:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;手順&lt;/h3&gt;
+
+&lt;p&gt;GemのREADMEに記載があるのでインストールは飛ばします。&lt;br&gt;
+詳しい手順はREADMEや&lt;a href=&#34;http://morizyun.github.io/blog/carrierwave-image-uploader-rails/&#34;&gt;ここ&lt;/a&gt;などにもあります。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;1-コントローラーを作る:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;1.コントローラーを作る&lt;/h3&gt;
+
+&lt;p&gt;ポリモーフィック関連で実装しているので、imageという名前でuploaderを作成します。
+&lt;br&gt;
+&lt;code&gt;rails generate uploader image&lt;/code&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;最小限の機能で良いので、上記のコマンドで作成されたimage_uploader.rbを&lt;a href=&#34;https://gyazo.com/f490ad33743aabb0123119a873feb330&#34;&gt;こんな感じ&lt;/a&gt;にします。&lt;br&gt;
+image_uploader.rbのパスは画像の左下に出てます。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-モデルを修正する:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;2.モデルを修正する&lt;/h3&gt;
+
+&lt;p&gt;以下の★ の箇所を追記します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Image &amp;lt; ActiveRecord::Base
+  acts_as_paranoid
+
+  ★ mount_uploader :image, ImageUploader
+  belongs_to :imageable, polymorphic: true
+  ★ belongs_to :user, polymorphic: true
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;なぜかmodels/userにuploaderをmountしていたので、Images.imageに#ActionDispatch::Http::UploadedFileほにゃららという文字列が入ってうまく画像をupdateできずに相当はまりました&amp;hellip;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;3-ビューを修正する:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;3. ビューを修正する&lt;/h3&gt;
+
+&lt;p&gt;views/users/_form.html.erb&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;user has one image なので、user.image.image_urlで画像のURLを取得します。&lt;br&gt;
+has_manyの場合は、user.images.first.image_urlとかeachでimagesを回してimage_urlとかでURLが取得できます。&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;% if user.image.image_url.nil? %&amp;gt;
+  &amp;lt;%= image_tag &#39;no_image.jpg&#39;, size: &#39;270x300&#39; %&amp;gt;
+  &amp;lt;%= f.file_field :image %&amp;gt;
+  &amp;lt;% else %&amp;gt;
+  &amp;lt;%= image_tag user.image.image_url %&amp;gt;
+&amp;lt;% end %&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;画像を削除する:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;画像を削除する&lt;/h4&gt;
+
+&lt;p&gt;READMEに記載がある通り、remove_imageを使います。&lt;br&gt;
+viewを以下の通りにするだけで保存時に画像が削除されます。&lt;br&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;label&amp;gt;
+  &amp;lt;%= check_box :remove_image, user.image.remove_image %&amp;gt;
+  画像を削除する
+&amp;lt;/label&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;todo:64f17f7297502d9bf1f489b0a74e4fe7&#34;&gt;TODO&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;画像アップロード時にプレビューを表示する&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;以下を試してみる
+&lt;a href=&#34;http://morizyun.github.io/blog/carrierwave-image-uploader-rails/&#34;&gt;http://morizyun.github.io/blog/carrierwave-image-uploader-rails/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;画像削除のチェックボックスにレが入った時に画像を見えなくする&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ほいじゃあの&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RuboCopでコードの静的チェックをしてみた@ローカル</title>
+      <link>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</link>
+      <pubDate>Thu, 19 May 2016 07:47:12 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</guid>
+      <description>
+
+&lt;p&gt;参加しているプロジェクトでSideCIを用いてGitHub上にPushした時にRuboCopを走らせています。&lt;br&gt;
+&lt;a href=&#34;http://blog.tackeyy.org/post/2016-05-14/mailto-slack-from-sideci/&#34;&gt;SideCI（RuboCopの解析）の結果をSlack通知に通知する&lt;/a&gt;&lt;br&gt;
+上記の記事の通りRuboCopのチェック結果（ソースへのコメント）がSlackに流れてくるので、だんだんうざくなってきました。&lt;br&gt;
+たぶん自分でpushした結果が流れてくるならいいのですが、他の人からしたらうざったいだろうなと思い、ローカルでRuboCopを走らせるようにしました。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rubocopをインストール:c70d9faebd769dcef536a9856ec7f8be&#34;&gt;RuboCopをインストール&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bbatsov/rubocop#installation&#34;&gt;RuboCop&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;code&gt;gem install rubocop&lt;/code&gt; これだけ。&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rubocopの結果が見にくい:c70d9faebd769dcef536a9856ec7f8be&#34;&gt;RuboCopの結果が見にくい&lt;/h3&gt;
+
+&lt;p&gt;エディタはVimを使っているので、プラグインを探すと&lt;a href=&#34;https://github.com/ngmy/vim-rubocop&#34;&gt;こんなの&lt;/a&gt;があった。&lt;br&gt;
+プラグインはNeoBundleで管理しているので、以下の行を~/.vimrcに足して完了。&lt;br&gt;
+1. &lt;code&gt;NeoBundle &#39;ngmy/vim-rubocop&#39; &amp;quot;rubocop&lt;/code&gt;&lt;br&gt;
+1. &lt;code&gt;NeoBundleInstall&lt;/code&gt;&lt;br&gt;
+&lt;br&gt;
+あとは、&lt;code&gt;:RuboCop&lt;/code&gt;するだけ。&lt;br&gt;
+quickfix windowが開くので、普通にRuboCop走らせて修正するより楽になりました。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ほいじゃあの。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

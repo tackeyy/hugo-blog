@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Circleci on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/circleci/</link>
+    <description>Recent content in Circleci on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Fri, 13 May 2016 12:02:49 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/circleci/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CircleCIの実行結果をSlackに通知してみる</title>
+      <link>http://blog.tackeyy.org/2016/05/13/mailto-slak-from-circleci</link>
+      <pubDate>Fri, 13 May 2016 12:02:49 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/13/mailto-slak-from-circleci</guid>
+      <description>
+
+&lt;h3 id=&#34;circleci-https-circleci-com:0441d625c69143e04d8951a038f82223&#34;&gt;&lt;a href=&#34;https://circleci.com/&#34;&gt;CircleCI&lt;/a&gt; ?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%82%A4%E3%83%B3%E3%83%86%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3&#34;&gt;継続的インテグレーション&lt;/a&gt;のプラットフォームです。&lt;/p&gt;
+
+&lt;p&gt;前はJenkins(Hudson)を使っていたので、Jenkins的なやつと理解しています。&lt;br&gt;
+特にWeb系は流行り廃りがあるのであれですが、JenknsからCircleCIに移行する流れもあるっぽい？です。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.stormcat.io/entry/2015/07/02/150000&#34;&gt;Jenkinsと完全にサヨナラして、CircleCIに移行した話&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;slackとの連携:0441d625c69143e04d8951a038f82223&#34;&gt;Slackとの連携&lt;/h3&gt;
+
+&lt;p&gt;概要は&lt;a href=&#34;https://circleci.com/blog/slack-integration/&#34;&gt;こちら&lt;/a&gt;でおおよそ把握できます。&lt;br&gt;
+ぼくが唯一ハマったのは、chat notificationの設定箇所が見つけられなかったところだけです。（10分くらい探しました。。）&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SlackでCircleCIと連携する設定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Channelの&lt;a href=&#34;https://gyazo.com/304cd41890db875b1e121a6eace1ab0d&#34;&gt;左上&lt;/a&gt;からApps &amp;amp; integrationsを選択します。&lt;br&gt;
+画面遷移後にCircle CIを検索して、notificationを送信したい&lt;a href=&#34;https://gyazo.com/77053b3ed12ab7179a484227ca08d06f&#34;&gt;チームを選択&lt;/a&gt;します。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;*すでに設定しているので上の画像では、configureになっています&lt;br&gt;
+*team選択後にchannelを選択できます&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;ここからはSlack上に説明があるので、それに沿ってCircleCI側の設定をしてください。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CircleCI側の設定&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;最初の&lt;a href=&#34;https://circleci.com/blog/slack-integration/&#34;&gt;リンク&lt;/a&gt;の通りです。&lt;br&gt;
+設定箇所へたどり着くには、&lt;a href=&#34;https://gyazo.com/324c92ff27b547843291c71c1086c1e2&#34;&gt;ここ&lt;/a&gt;の歯車をクリック後に&lt;br&gt;
+ダッシュボードの中央左のChat NotificationsからSlackで説明されていた設定（URL貼るだけですが）を行います。&lt;br&gt;
+記載してありますが、Fixed/Failed Onlyにチェックを入れると、ビルド失敗/修正だけがNotificationのトリガーになります。&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

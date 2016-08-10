@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>さくらvps on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/%E3%81%95%E3%81%8F%E3%82%89vps/</link>
+    <description>Recent content in さくらvps on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 08 May 2016 00:12:03 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/%E3%81%95%E3%81%8F%E3%82%89vps/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>さくらVPS x wordpressからGitHub Pages x Hugoにした</title>
+      <link>http://blog.tackeyy.org/2016/05/08/wordpress-to-hugo</link>
+      <pubDate>Sun, 08 May 2016 00:12:03 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/05/08/wordpress-to-hugo</guid>
+      <description>
+
+&lt;p&gt;さくらVPS x Wordpressにして2週間くらいしか経っていませんが、&lt;br&gt;
+GitHub Pages x Hugoにしました。&lt;/p&gt;
+
+&lt;h3 id=&#34;wordpressからhugoにした理由:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;WordpressからHugoにした理由&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MarkDownを使いづらいから&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;巷では、デプロイが早い！などがWordpressや&lt;br&gt;
+Hugo以外の静的ページジェネレーターからHugoに移行する動機みたいなのですが、&lt;br&gt;
+ぼくの場合は、上記の一点がWordpressをやめてHugoにした理由です。&lt;br&gt;
+Hugoにしたのは、流行りそうだから&amp;hellip;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.staticgen.com/&#34;&gt;静的ページジェネレーター&lt;/a&gt;がまとまっているサイト。&lt;/p&gt;
+
+&lt;p&gt;業務システムのエンジニアだった頃は秀丸さんで*.txtメインだったので、&lt;br&gt;
+そもそもMarkDownで書く習慣がありませんでしたが、&lt;br&gt;
+ウェブの会社に就職してから、以下のようなツールを使うようになったので、&lt;br&gt;
+MarkDownで自然と文書を書くようになりました。&lt;br&gt;
+* &lt;a href=&#34;https://esa.io/&#34;&gt;esa&lt;/a&gt;&lt;br&gt;
+* GitHub&lt;br&gt;
+* Qiita&lt;br&gt;
+MarkDownで文章を書き出すと、ブログもMarkDownで書きたいと思うようになり、&lt;br&gt;
+Wordpressのプラグインを入れてみたのですが、まー書きにくい。&lt;br&gt;
+というわけで、Wordpressを2週間くらいでやめました.&lt;/p&gt;
+
+&lt;h3 id=&#34;hugo:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;Hugo?&lt;/h3&gt;
+
+&lt;p&gt;静的なページをMarkDownで簡単につくれます、っていうサービスです。&lt;br&gt;
+チュートリアルをやってみましたが、簡単でした。&lt;br&gt;
+&lt;a href=&#34;http://qiita.com/tackeyy/items/d0b6a66572cc3563e0c0&#34;&gt;チュートリアルのやり方をまとめてみた。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ブログを作るにあたっては、&lt;a href=&#34;http://tanksuzuki.com/post/hugo-github-pages-1/&#34;&gt;ここ&lt;/a&gt;を参考にさせてもらいました。&lt;br&gt;
+ちなみにテーマも上のリンクの方が作ったものを使わせてもらってます。&lt;/p&gt;
+
+&lt;h3 id=&#34;wordpressの記事を移行しなきゃ:66e96a2519e9c9397f39ad64aba97c83&#34;&gt;Wordpressの記事を移行しなきゃ&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;5記事くらいしかないのですが、せっかく書いたし、Hugoに移行しなきゃと思って1週間くらいたちました。&lt;br&gt;
+Wordpressの&lt;a href=&#34;https://github.com/SchumacherFM/wordpress-to-hugo-exporter&#34;&gt;プラグイン&lt;/a&gt;もあるみたいですが、&lt;br&gt;
+内容も微妙だし、書き直してもいいかなと思ってます。
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+ちゃんちゃん。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
