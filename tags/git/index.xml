@@ -6,8 +6,27 @@
     <description>Recent content in Git on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 21 Jul 2016 15:50:21 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Aug 2016 13:48:42 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gitで管理しているファイルを削除した場合のリカバリーコマンド</title>
+      <link>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</link>
+      <pubDate>Sun, 14 Aug 2016 13:48:42 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</guid>
+      <description>&lt;p&gt;Gitで管理しているファイルを削除した時にファイルを戻すコマンドのメモです。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;今までSubversionを使っていたので、バージョン管理で管理しているファイルを削除する = ゴミ箱に入るという認識でした。&lt;br&gt;
+Gitの場合はブランチごとにファイルの情報をblobオブジェクトで管理しているので&lt;br&gt;
+（ファイルを表示・非表示させているので）、&lt;br&gt;
+ファイルを削除する = ファイルを非表示にするというようなイメージになります。&lt;br&gt;
+&lt;br&gt;
+非表示になっているファイルを元に戻すためには、以下のコマンドで戻せます。&lt;br&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/8c490f1da28c2dd05fa8279c7a5b9ecc.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>git commitを取り消す</title>

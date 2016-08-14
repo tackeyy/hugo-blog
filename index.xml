@@ -6,8 +6,27 @@
     <description>Recent content on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Wed, 10 Aug 2016 17:56:15 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 14 Aug 2016 13:48:42 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gitで管理しているファイルを削除した場合のリカバリーコマンド</title>
+      <link>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</link>
+      <pubDate>Sun, 14 Aug 2016 13:48:42 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</guid>
+      <description>&lt;p&gt;Gitで管理しているファイルを削除した時にファイルを戻すコマンドのメモです。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;今までSubversionを使っていたので、バージョン管理で管理しているファイルを削除する = ゴミ箱に入るという認識でした。&lt;br&gt;
+Gitの場合はブランチごとにファイルの情報をblobオブジェクトで管理しているので&lt;br&gt;
+（ファイルを表示・非表示させているので）、&lt;br&gt;
+ファイルを削除する = ファイルを非表示にするというようなイメージになります。&lt;br&gt;
+&lt;br&gt;
+非表示になっているファイルを元に戻すためには、以下のコマンドで戻せます。&lt;br&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/8c490f1da28c2dd05fa8279c7a5b9ecc.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>rpecの実行コマンド（部分実行も）のまとめ</title>
@@ -606,50 +625,6 @@ viewを以下の通りにするだけで保存時に画像が削除されます�
 &lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;ほいじゃあの&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RuboCopでコードの静的チェックをしてみた@ローカル</title>
-      <link>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</link>
-      <pubDate>Thu, 19 May 2016 07:47:12 +0900</pubDate>
-      
-      <guid>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</guid>
-      <description>
-
-&lt;p&gt;参加しているプロジェクトでSideCIを用いてGitHub上にPushした時にRuboCopを走らせています。&lt;br&gt;
-&lt;a href=&#34;http://blog.tackeyy.org/post/2016-05-14/mailto-slack-from-sideci/&#34;&gt;SideCI（RuboCopの解析）の結果をSlack通知に通知する&lt;/a&gt;&lt;br&gt;
-上記の記事の通りRuboCopのチェック結果（ソースへのコメント）がSlackに流れてくるので、だんだんうざくなってきました。&lt;br&gt;
-たぶん自分でpushした結果が流れてくるならいいのですが、他の人からしたらうざったいだろうなと思い、ローカルでRuboCopを走らせるようにしました。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;rubocopをインストール:c70d9faebd769dcef536a9856ec7f8be&#34;&gt;RuboCopをインストール&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/bbatsov/rubocop#installation&#34;&gt;RuboCop&lt;/a&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;code&gt;gem install rubocop&lt;/code&gt; これだけ。&lt;br&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;rubocopの結果が見にくい:c70d9faebd769dcef536a9856ec7f8be&#34;&gt;RuboCopの結果が見にくい&lt;/h3&gt;
-
-&lt;p&gt;エディタはVimを使っているので、プラグインを探すと&lt;a href=&#34;https://github.com/ngmy/vim-rubocop&#34;&gt;こんなの&lt;/a&gt;があった。&lt;br&gt;
-プラグインはNeoBundleで管理しているので、以下の行を~/.vimrcに足して完了。&lt;br&gt;
-1. &lt;code&gt;NeoBundle &#39;ngmy/vim-rubocop&#39; &amp;quot;rubocop&lt;/code&gt;&lt;br&gt;
-1. &lt;code&gt;NeoBundleInstall&lt;/code&gt;&lt;br&gt;
-&lt;br&gt;
-あとは、&lt;code&gt;:RuboCop&lt;/code&gt;するだけ。&lt;br&gt;
-quickfix windowが開くので、普通にRuboCop走らせて修正するより楽になりました。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-ほいじゃあの。&lt;/p&gt;
 </description>
     </item>
     
