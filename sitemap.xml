@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://blog.tackeyy.org/</loc>
-    <lastmod>2016-08-15T16:06:19+09:00</lastmod>
+    <lastmod>2016-08-16T17:52:25+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</loc>
+    <lastmod>2016-08-16T17:52:25+09:00</lastmod>
   </url>
   
   <url>

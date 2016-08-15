@@ -6,8 +6,50 @@
     <description>Recent content in Rails on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Mon, 15 Aug 2016 16:06:19 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 16 Aug 2016 17:52:25 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/tags/rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>railsの*_pathと*_urlの違いについて</title>
+      <link>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</link>
+      <pubDate>Tue, 16 Aug 2016 17:52:25 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</guid>
+      <description>
+
+&lt;p&gt;rails触りだしてから4か月くらい経ちましたが、&lt;br&gt;
+もちろん &lt;code&gt;*_path&lt;/code&gt; と &lt;code&gt;*_url&lt;/code&gt; の違いくらいは知っていました。&lt;br&gt;
+相対パス(&lt;em&gt;_path)か絶対パス（&lt;/em&gt;_url)の違いです。&lt;br&gt;
+ただ、 &lt;code&gt;redirect_to&lt;/code&gt; の時は、 &lt;code&gt;*_url&lt;/code&gt; を使わないといけないということは全く知りませんでした。&lt;/p&gt;
+
+&lt;h4 id=&#34;ことの発端:fe74660a3448d57694c76285b61db682&#34;&gt;ことの発端&lt;/h4&gt;
+
+&lt;p&gt;プルリクをレビューしてもらった時に&lt;br&gt;
+「 HTTPプロトコルの仕様上、&lt;code&gt;redirect_to&lt;/code&gt; の時は &lt;code&gt;*_url&lt;/code&gt; を使ってください」&lt;br&gt;
+と指摘をいただきました。&lt;br&gt;
+HTTPプロトコルの仕様ってなんですか？！と聞けず（普通自分で調べることですからね）、&lt;br&gt;
+調べたことをメモしようと思った次第です。&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;結論:fe74660a3448d57694c76285b61db682&#34;&gt;結論&lt;/h4&gt;
+
+&lt;p&gt;上記のレビューのコメントを咀嚼する形で結論となくならば、以下のようになります。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;そもそもrailsの &lt;code&gt;redirect_to&lt;/code&gt; ではHTTPステータスコード3xx系でリクエストを投げており、&lt;/li&gt;
+&lt;li&gt;HTTPステータスコード3xx系の &lt;code&gt;Location: header&lt;/code&gt; は絶対パスである必要があるので、&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;redirect_to&lt;/code&gt; を使う時は、 &lt;code&gt;*_url&lt;/code&gt; で絶対パスを渡してあげる必要がある&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;参考:fe74660a3448d57694c76285b61db682&#34;&gt;参考&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/2350539/what-is-the-difference-between-url-and-path-while-using-the-routes-in-rails&#34;&gt;http://stackoverflow.com/questions/2350539/what-is-the-difference-between-url-and-path-while-using-the-routes-in-rails&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;最後に:fe74660a3448d57694c76285b61db682&#34;&gt;最後に&lt;/h4&gt;
+
+&lt;p&gt;まだHTTP周りの知識が乏しくHTTPの規約で裏をとる、というようなことができてなかったり、&lt;br&gt;
+不勉強さを痛感する今日この頃。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>RailsのI18n（国際化対応）をやってみた</title>
