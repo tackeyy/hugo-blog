@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todo List on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/todo-list/</link>
+    <description>Recent content in Todo List on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Fri, 19 Aug 2016 13:06:53 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/todo-list/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>結婚式の持ち物 / 当日までに準備すべきこと</title>
+      <link>http://blog.tackeyy.org/post/2016/08/19/todo-list-with-wedding</link>
+      <pubDate>Fri, 19 Aug 2016 13:06:53 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/08/19/todo-list-with-wedding</guid>
+      <description>
+
+&lt;p&gt;Todoにしておく理由については、&lt;a href=&#34;http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list/&#34;&gt;こちら&lt;/a&gt;をご覧ください。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;式当日まで:b672650d56ee11730867120bfd76e07b&#34;&gt;式当日まで&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;クリーニング
+
+&lt;ul&gt;
+&lt;li&gt;スーツ&lt;/li&gt;
+&lt;li&gt;ネクタイ&lt;/li&gt;
+&lt;li&gt;ハンカチ&lt;/li&gt;
+&lt;li&gt;靴（汚かったら）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ご祝儀
+
+&lt;ul&gt;
+&lt;li&gt;ご祝儀袋&lt;/li&gt;
+&lt;li&gt;ピン札&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;スーツがあるか確認
+
+&lt;ul&gt;
+&lt;li&gt;靴下&lt;/li&gt;
+&lt;li&gt;下着&lt;/li&gt;
+&lt;li&gt;ベルト&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;式当日:b672650d56ee11730867120bfd76e07b&#34;&gt;式当日&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;招待状&lt;/li&gt;
+&lt;li&gt;ご祝儀&lt;/li&gt;
+&lt;li&gt;リップクリーム&lt;/li&gt;
+&lt;li&gt;ハンカチ&lt;/li&gt;
+&lt;li&gt;kindle, 本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;メモ:b672650d56ee11730867120bfd76e07b&#34;&gt;メモ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;転職時にシャツとか靴下とか全部捨ててたので、今回は&lt;/li&gt;
+&lt;li&gt;みずほ銀行渋谷中央支店だと土日祝日でもピン札に両替できる(専用のATMがある）&lt;/li&gt;
+&lt;li&gt;靴のかかとの修理、クリーニング、紐交換で5,500円くらいかかった@ミスターミニット&lt;/li&gt;
+&lt;li&gt;友人として結婚式に参加する場合は、ブラウン系の靴でもいいらしい（まあ黒の方が無難だけど）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;終わりに:b672650d56ee11730867120bfd76e07b&#34;&gt;終わりに&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;- [ ]&lt;/code&gt; でcheckboxにならないのが辛い&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>作業の手順書 / TodoList化を通して生産性の向上を図る</title>
+      <link>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</link>
+      <pubDate>Thu, 18 Aug 2016 13:25:39 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</guid>
+      <description>
+
+&lt;p&gt;作業効率を上げるひとつの方法として、掲題の手法が有用なのではないかと考えています。&lt;br&gt;
+&lt;br&gt;
+手順書によって作業手順に再現性を持たせることができ、&lt;br&gt;
+ToDoListによって各手順の作業に抜け漏れがなくなるため、&lt;br&gt;
+本来は不必要だった作業に時間をかけてしまったということがなく、&lt;br&gt;
+またミスなく作業を進める（可能性を高める）ことにより、&lt;br&gt;
+生産性が向上すると考えています&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;本ポストでは、作業の手順書 / TodoList化を合わせてテンプレ化と表現します。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;テンプレ化のイメージ:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;テンプレ化のイメージ&lt;/h3&gt;
+
+&lt;h3 id=&#34;どのような仕事においてテンプレ化すべきか:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;どのような仕事においてテンプレ化すべきか&lt;/h3&gt;
+
+&lt;h3 id=&#34;参考図書:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;参考図書&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2bC4jgp&#34;&gt;テンプレート仕事術―日常業務の７５％を自動化する&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2bmCpUA&#34;&gt;アナタはなぜチェックリストを使わないのか？【ミスを最大限に減らしベストの決断力を持つ！】&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

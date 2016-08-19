@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思考 on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/%E6%80%9D%E8%80%83/</link>
+    <description>Recent content in 思考 on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Thu, 18 Aug 2016 13:25:39 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/%E6%80%9D%E8%80%83/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>作業の手順書 / TodoList化を通して生産性の向上を図る</title>
+      <link>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</link>
+      <pubDate>Thu, 18 Aug 2016 13:25:39 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</guid>
+      <description>
+
+&lt;p&gt;作業効率を上げるひとつの方法として、掲題の手法が有用なのではないかと考えています。&lt;br&gt;
+&lt;br&gt;
+手順書によって作業手順に再現性を持たせることができ、&lt;br&gt;
+ToDoListによって各手順の作業に抜け漏れがなくなるため、&lt;br&gt;
+本来は不必要だった作業に時間をかけてしまったということがなく、&lt;br&gt;
+またミスなく作業を進める（可能性を高める）ことにより、&lt;br&gt;
+生産性が向上すると考えています&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;本ポストでは、作業の手順書 / TodoList化を合わせてテンプレ化と表現します。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;テンプレ化のイメージ:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;テンプレ化のイメージ&lt;/h3&gt;
+
+&lt;h3 id=&#34;どのような仕事においてテンプレ化すべきか:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;どのような仕事においてテンプレ化すべきか&lt;/h3&gt;
+
+&lt;h3 id=&#34;参考図書:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;参考図書&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2bC4jgp&#34;&gt;テンプレート仕事術―日常業務の７５％を自動化する&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2bmCpUA&#34;&gt;アナタはなぜチェックリストを使わないのか？【ミスを最大限に減らしベストの決断力を持つ！】&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

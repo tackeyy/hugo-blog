@@ -6,8 +6,100 @@
     <description>Recent content on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Tue, 16 Aug 2016 17:52:25 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 19 Aug 2016 13:06:53 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>結婚式の持ち物 / 当日までに準備すべきこと</title>
+      <link>http://blog.tackeyy.org/post/2016/08/19/todo-list-with-wedding</link>
+      <pubDate>Fri, 19 Aug 2016 13:06:53 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/08/19/todo-list-with-wedding</guid>
+      <description>
+
+&lt;p&gt;Todoにしておく理由については、&lt;a href=&#34;http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list/&#34;&gt;こちら&lt;/a&gt;をご覧ください。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;式当日まで:b672650d56ee11730867120bfd76e07b&#34;&gt;式当日まで&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;クリーニング
+
+&lt;ul&gt;
+&lt;li&gt;スーツ&lt;/li&gt;
+&lt;li&gt;ネクタイ&lt;/li&gt;
+&lt;li&gt;ハンカチ&lt;/li&gt;
+&lt;li&gt;靴（汚かったら）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ご祝儀
+
+&lt;ul&gt;
+&lt;li&gt;ご祝儀袋&lt;/li&gt;
+&lt;li&gt;ピン札&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;スーツがあるか確認
+
+&lt;ul&gt;
+&lt;li&gt;靴下&lt;/li&gt;
+&lt;li&gt;下着&lt;/li&gt;
+&lt;li&gt;ベルト&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;式当日:b672650d56ee11730867120bfd76e07b&#34;&gt;式当日&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;招待状&lt;/li&gt;
+&lt;li&gt;ご祝儀&lt;/li&gt;
+&lt;li&gt;リップクリーム&lt;/li&gt;
+&lt;li&gt;ハンカチ&lt;/li&gt;
+&lt;li&gt;kindle, 本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;メモ:b672650d56ee11730867120bfd76e07b&#34;&gt;メモ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;転職時にシャツとか靴下とか全部捨ててたので、今回は&lt;/li&gt;
+&lt;li&gt;みずほ銀行渋谷中央支店だと土日祝日でもピン札に両替できる(専用のATMがある）&lt;/li&gt;
+&lt;li&gt;靴のかかとの修理、クリーニング、紐交換で5,500円くらいかかった@ミスターミニット&lt;/li&gt;
+&lt;li&gt;友人として結婚式に参加する場合は、ブラウン系の靴でもいいらしい（まあ黒の方が無難だけど）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;終わりに:b672650d56ee11730867120bfd76e07b&#34;&gt;終わりに&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;- [ ]&lt;/code&gt; でcheckboxにならないのが辛い&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>作業の手順書 / TodoList化を通して生産性の向上を図る</title>
+      <link>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</link>
+      <pubDate>Thu, 18 Aug 2016 13:25:39 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</guid>
+      <description>
+
+&lt;p&gt;作業効率を上げるひとつの方法として、掲題の手法が有用なのではないかと考えています。&lt;br&gt;
+&lt;br&gt;
+手順書によって作業手順に再現性を持たせることができ、&lt;br&gt;
+ToDoListによって各手順の作業に抜け漏れがなくなるため、&lt;br&gt;
+本来は不必要だった作業に時間をかけてしまったということがなく、&lt;br&gt;
+またミスなく作業を進める（可能性を高める）ことにより、&lt;br&gt;
+生産性が向上すると考えています&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;本ポストでは、作業の手順書 / TodoList化を合わせてテンプレ化と表現します。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;テンプレ化のイメージ:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;テンプレ化のイメージ&lt;/h3&gt;
+
+&lt;h3 id=&#34;どのような仕事においてテンプレ化すべきか:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;どのような仕事においてテンプレ化すべきか&lt;/h3&gt;
+
+&lt;h3 id=&#34;参考図書:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;参考図書&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2bC4jgp&#34;&gt;テンプレート仕事術―日常業務の７５％を自動化する&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://amzn.to/2bmCpUA&#34;&gt;アナタはなぜチェックリストを使わないのか？【ミスを最大限に減らしベストの決断力を持つ！】&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>railsの*_pathと*_urlの違いについて</title>
@@ -501,100 +593,6 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
 &lt;ul&gt;
 &lt;li&gt;大会出てこんやんけ！&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>node-easymockでモックサーバーを立てる</title>
-      <link>http://blog.tackeyy.org/post/2016/06/21/api-first-with-easymock</link>
-      <pubDate>Tue, 21 Jun 2016 17:23:04 +0900</pubDate>
-      
-      <guid>http://blog.tackeyy.org/post/2016/06/21/api-first-with-easymock</guid>
-      <description>
-
-&lt;h4 id=&#34;node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;node-easymock&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/cyberagent/node-easymock&#34;&gt;https://github.com/cyberagent/node-easymock&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;APIの仕様は固まっているが実装中などというシチュエーションにおいて、&lt;br&gt;
-サンプルデータをAPIの仕様にそって作成しておけば、APIが返すJSONを返してくれるモックサーバーが簡単に作るれるツールです。&lt;br&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;モックサーバーを導入するモチベーション:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;モックサーバーを導入するモチベーション&lt;/h4&gt;
-
-&lt;p&gt;（自分が主導したわけではないのですが）&lt;br&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;APIの実装はまだ時間がかかるが、&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;仕様はあらかた決まっているため、&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;APIに繋ぎこみを早く行いたい&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;使い方:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;使い方&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/cyberagent/node-easymock#usage&#34;&gt;本家のREADME&lt;/a&gt;だけで簡単にインストールできたのですが、&lt;br&gt;
-複数のデータをベタ書きではなく少しいい感じに作ろうとほんの少しだけ試行錯誤しました。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;lib/easymock/_templates/notice.json&lt;br&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-  &amp;quot;noticeId&amp;quot;: &amp;quot;#{_1}&amp;quot;,
-  &amp;quot;noticeTitle&amp;quot;: &amp;quot;通知#{_1}&amp;quot;,
-  &amp;quot;noticeDetail&amp;quot;: &amp;quot;通知#{_1}の詳細&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;lib/easymock/me/notice/1_get.json&lt;br&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{
-  &amp;quot;notice&amp;quot;: [
-    &amp;quot;{{notice(1)}}&amp;quot;,
-    &amp;quot;{{notice(2)}}&amp;quot;,
-    &amp;quot;{{notice(3)}}&amp;quot;
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;参考にしたREADMEは&lt;a href=&#34;https://github.com/cyberagent/node-easymock#parameters&#34;&gt;ここらへん&lt;/a&gt;です。&lt;br&gt;
-上記のデータだと引数が一つなので問題ないですが、例えばcategoryのように0: 学校, 1: 職場みたいなケースの場合、&lt;br&gt;
-&lt;code&gt;&amp;quot;{{notice(1, 0)&amp;quot;}}&lt;/code&gt;のようにするとデータと見ただけでは何をしているのか分からなくなってしまいます。&lt;br&gt;
-それを解決するために&lt;code&gt;config.json&lt;/code&gt;に変数を定義することができます。詳細は&lt;a href=&#34;https://github.com/cyberagent/node-easymock#configjson&#34;&gt;ここ&lt;/a&gt;に記載があります。&lt;br&gt;
-なるほど、変数を定義して&amp;hellip;と思ったらnoticeの引数に変数をセットしても式展開されずに難儀しました。&lt;br&gt;
-可読性も大切ですが、あくまでテストデータなので、ここで時間をかけるより他に時間をかけた方が良いことがある！と言い聞かせて、結局変数は使いませんでした。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>モンキーパッチ</title>
-      <link>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</link>
-      <pubDate>Tue, 14 Jun 2016 20:28:37 +0900</pubDate>
-      
-      <guid>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</guid>
-      <description>
-
-&lt;p&gt;社内の方が&lt;a href=&#34;https://github.com/t-k/gmo-payment-ruby&#34;&gt;gmo-payment-ruby&lt;/a&gt;にあてたモンキーパッチを紹介されていました。&lt;br&gt;
-前職ではJavaを主に使っていて、外部のライブラリを使用するというよりも自社で自社仕様のライブラリを使う（もしくは作る）方が多かったので、&lt;br&gt;
-今回初めてモンキーパッチという言葉を聞きました。&lt;br&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;モンキーパッチ:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;モンキーパッチ&lt;/h4&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;モンキーパッチは、オリジナルのソースコードを変更することなく、実行時に動的言語(例えばSmalltalk, JavaScript, Objective-C, Ruby, Perl, Python, Groovy, など)のコードを拡張したり、変更したりする方法である。
-&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%82%AD%E3%83%BC%E3%83%91%E3%83%83%E3%83%81&#34;&gt;Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&#34;方法:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;方法&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;紹介されたモンキーパッチでは、class_eval, module_eval (Module)を使用して実装していました&lt;br&gt;
-&lt;a href=&#34;http://ref.xaio.jp/ruby/classes/module/class_eval&#34;&gt;http://ref.xaio.jp/ruby/classes/module/class_eval&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;話を受けて思ったこと:1520bcef3e0cf7194b7be104b759d6c9&#34;&gt;話を受けて思ったこと&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;モンキーパッチが呼び出されていることをコード見ただけでわかるか？&lt;br&gt;
-運用・保守を行うフェーズを想定すると上記の観点を満たせるか、という点が大事になる気がしました。&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
