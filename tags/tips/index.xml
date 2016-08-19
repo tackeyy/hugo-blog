@@ -11,10 +11,10 @@
     
     <item>
       <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
-      <link>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</link>
+      <link>http://blog.tackeyy.org/post/2016/07/27/change-http-to-ssh-on-github</link>
       <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/27/change-http-to-ssh-on-github</guid>
       <description>
 
 &lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>既存のディレクトリにrails newする</title>
-      <link>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</link>
+      <link>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</link>
       <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</guid>
       <description>
 
 &lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>git commitを取り消す</title>
-      <link>http://blog.tackeyy.org/2016/07/21/reset-git-commit</link>
+      <link>http://blog.tackeyy.org/post/2016/07/21/reset-git-commit</link>
       <pubDate>Thu, 21 Jul 2016 15:50:21 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/21/reset-git-commit</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/21/reset-git-commit</guid>
       <description>
 
 &lt;h1 id=&#34;間違えてdevelopにコミットしてもーた:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;間違えてdevelopにコミットしてもーた&lt;/h1&gt;

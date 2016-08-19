@@ -11,10 +11,10 @@
     
     <item>
       <title>SideCIの実行結果をSlackに通知してみる</title>
-      <link>http://blog.tackeyy.org/2016/05/14/mailto-slack-from-sideci</link>
+      <link>http://blog.tackeyy.org/post/2016/05/14/mailto-slack-from-sideci</link>
       <pubDate>Sat, 14 May 2016 11:17:05 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/14/mailto-slack-from-sideci</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/14/mailto-slack-from-sideci</guid>
       <description>
 
 &lt;h3 id=&#34;sideci:d4fd0ae8721e64088049829f66bc1e5e&#34;&gt;SideCI?&lt;/h3&gt;
@@ -74,10 +74,10 @@ Slackに問い合わせみたところ&lt;a href=&#34;https://gyazo.com/bb6183e3
     
     <item>
       <title>CircleCIの実行結果をSlackに通知してみる</title>
-      <link>http://blog.tackeyy.org/2016/05/13/mailto-slak-from-circleci</link>
+      <link>http://blog.tackeyy.org/post/2016/05/13/mailto-slak-from-circleci</link>
       <pubDate>Fri, 13 May 2016 12:02:49 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/13/mailto-slak-from-circleci</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/13/mailto-slak-from-circleci</guid>
       <description>
 
 &lt;h3 id=&#34;circleci-https-circleci-com:0441d625c69143e04d8951a038f82223&#34;&gt;&lt;a href=&#34;https://circleci.com/&#34;&gt;CircleCI&lt;/a&gt; ?&lt;/h3&gt;

@@ -11,10 +11,10 @@
     
     <item>
       <title>Rspecでテストを書くときの雛形</title>
-      <link>http://blog.tackeyy.org/2016/08/01/rspec-template</link>
+      <link>http://blog.tackeyy.org/post/2016/08/01/rspec-template</link>
       <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/01/rspec-template</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/01/rspec-template</guid>
       <description>
 
 &lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;

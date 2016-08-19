@@ -11,10 +11,10 @@
     
     <item>
       <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
-      <link>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</link>
+      <link>http://blog.tackeyy.org/post/2016/07/27/change-http-to-ssh-on-github</link>
       <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/27/change-http-to-ssh-on-github</guid>
       <description>
 
 &lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>GitHubにSSH公開鍵を登録する</title>
-      <link>http://blog.tackeyy.org/2016/05/17/add-ssh-key-to-github</link>
+      <link>http://blog.tackeyy.org/post/2016/05/17/add-ssh-key-to-github</link>
       <pubDate>Tue, 17 May 2016 15:25:25 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/17/add-ssh-key-to-github</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/17/add-ssh-key-to-github</guid>
       <description>
 
 &lt;p&gt;git pullなどをするときに常にuser/passを聞かれるのが面倒だったので、&lt;br&gt;

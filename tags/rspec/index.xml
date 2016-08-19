@@ -11,10 +11,10 @@
     
     <item>
       <title>rpecの実行コマンド（部分実行も）のまとめ</title>
-      <link>http://blog.tackeyy.org/2016/08/10/rspec-execution-commands</link>
+      <link>http://blog.tackeyy.org/post/2016/08/10/rspec-execution-commands</link>
       <pubDate>Wed, 10 Aug 2016 17:56:15 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/10/rspec-execution-commands</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/10/rspec-execution-commands</guid>
       <description>&lt;p&gt;rspecでテストを書いていると、一部のテストだけ実行したい場合があります。&lt;br&gt;
 rspecから少し離れるとすぐコマンドを忘れてしまうので備忘がてらメモしておきます。&lt;br&gt;&lt;/p&gt;
 
@@ -37,10 +37,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>Rspecでテストを書くときの雛形</title>
-      <link>http://blog.tackeyy.org/2016/08/01/rspec-template</link>
+      <link>http://blog.tackeyy.org/post/2016/08/01/rspec-template</link>
       <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/01/rspec-template</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/01/rspec-template</guid>
       <description>
 
 &lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;

@@ -11,10 +11,10 @@
     
     <item>
       <title>carrierwaveを使ってlocalに画像をuploadする</title>
-      <link>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</link>
+      <link>http://blog.tackeyy.org/post/2016/05/20/upload-file-to-local-with-carrierwave</link>
       <pubDate>Fri, 20 May 2016 14:29:04 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/20/upload-file-to-local-with-carrierwave</guid>
       <description>
 
 &lt;p&gt;備忘のために&lt;a href=&#34;https://github.com/carrierwaveuploader/carrierwave&#34;&gt;carrierwave&lt;/a&gt;を使って、ローカルに画像をアップロードする手順を記しておきます。&lt;br&gt;&lt;/p&gt;

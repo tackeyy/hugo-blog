@@ -11,10 +11,10 @@
     
     <item>
       <title>Gitで管理しているファイルを削除した場合のリカバリーコマンド</title>
-      <link>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</link>
+      <link>http://blog.tackeyy.org/post/2016/08/14/recover-deleted-files-with-git</link>
       <pubDate>Sun, 14 Aug 2016 13:48:42 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/14/recover-deleted-files-with-git</guid>
       <description>&lt;p&gt;Gitで管理しているファイルを削除した時にファイルを戻すコマンドのメモです。&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;今までSubversionを使っていたので、バージョン管理で管理しているファイルを削除する = ゴミ箱に入るという認識でした。&lt;br&gt;
@@ -30,10 +30,10 @@ Gitの場合はブランチごとにファイルの情報をblobオブジェク�
     
     <item>
       <title>git commitを取り消す</title>
-      <link>http://blog.tackeyy.org/2016/07/21/reset-git-commit</link>
+      <link>http://blog.tackeyy.org/post/2016/07/21/reset-git-commit</link>
       <pubDate>Thu, 21 Jul 2016 15:50:21 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/21/reset-git-commit</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/21/reset-git-commit</guid>
       <description>
 
 &lt;h1 id=&#34;間違えてdevelopにコミットしてもーた:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;間違えてdevelopにコミットしてもーた&lt;/h1&gt;

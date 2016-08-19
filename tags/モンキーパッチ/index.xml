@@ -11,10 +11,10 @@
     
     <item>
       <title>モンキーパッチ</title>
-      <link>http://blog.tackeyy.org/2016/06/14/monkey-patch</link>
+      <link>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</link>
       <pubDate>Tue, 14 Jun 2016 20:28:37 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/06/14/monkey-patch</guid>
+      <guid>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</guid>
       <description>
 
 &lt;p&gt;社内の方が&lt;a href=&#34;https://github.com/t-k/gmo-payment-ruby&#34;&gt;gmo-payment-ruby&lt;/a&gt;にあてたモンキーパッチを紹介されていました。&lt;br&gt;

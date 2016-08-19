@@ -11,10 +11,10 @@
     
     <item>
       <title>railsの*_pathと*_urlの違いについて</title>
-      <link>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</link>
+      <link>http://blog.tackeyy.org/post/2016/08/16/differnce-between-path-and-url-on-rails</link>
       <pubDate>Tue, 16 Aug 2016 17:52:25 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/16/differnce-between-path-and-url-on-rails</guid>
       <description>
 
 &lt;p&gt;rails触りだしてから4か月くらい経ちましたが、&lt;br&gt;
@@ -53,10 +53,10 @@ HTTPプロトコルの仕様ってなんですか？！と聞けず（普通自�
     
     <item>
       <title>RailsのI18n（国際化対応）をやってみた</title>
-      <link>http://blog.tackeyy.org/2016/08/15/rails%E3%81%AEi18n%E5%9B%BD%E9%9A%9B%E5%8C%96%E5%AF%BE%E5%BF%9C%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F</link>
+      <link>http://blog.tackeyy.org/post/2016/08/15/i18n-on-rails</link>
       <pubDate>Mon, 15 Aug 2016 16:06:19 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/15/rails%E3%81%AEi18n%E5%9B%BD%E9%9A%9B%E5%8C%96%E5%AF%BE%E5%BF%9C%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/15/i18n-on-rails</guid>
       <description>
 
 &lt;p&gt;今回は国際化ではなくてviewに文字をベタ書きしたくないので、&lt;br&gt;
@@ -115,10 +115,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>Gitで管理しているファイルを削除した場合のリカバリーコマンド</title>
-      <link>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</link>
+      <link>http://blog.tackeyy.org/post/2016/08/14/recover-deleted-files-with-git</link>
       <pubDate>Sun, 14 Aug 2016 13:48:42 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/14/recover-deleted-files-with-git</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/14/recover-deleted-files-with-git</guid>
       <description>&lt;p&gt;Gitで管理しているファイルを削除した時にファイルを戻すコマンドのメモです。&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;今までSubversionを使っていたので、バージョン管理で管理しているファイルを削除する = ゴミ箱に入るという認識でした。&lt;br&gt;
@@ -134,10 +134,10 @@ Gitの場合はブランチごとにファイルの情報をblobオブジェク�
     
     <item>
       <title>rpecの実行コマンド（部分実行も）のまとめ</title>
-      <link>http://blog.tackeyy.org/2016/08/10/rspec-execution-commands</link>
+      <link>http://blog.tackeyy.org/post/2016/08/10/rspec-execution-commands</link>
       <pubDate>Wed, 10 Aug 2016 17:56:15 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/10/rspec-execution-commands</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/10/rspec-execution-commands</guid>
       <description>&lt;p&gt;rspecでテストを書いていると、一部のテストだけ実行したい場合があります。&lt;br&gt;
 rspecから少し離れるとすぐコマンドを忘れてしまうので備忘がてらメモしておきます。&lt;br&gt;&lt;/p&gt;
 
@@ -160,10 +160,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>Rspecでテストを書くときの雛形</title>
-      <link>http://blog.tackeyy.org/2016/08/01/rspec-template</link>
+      <link>http://blog.tackeyy.org/post/2016/08/01/rspec-template</link>
       <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/01/rspec-template</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/01/rspec-template</guid>
       <description>
 
 &lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;
@@ -197,10 +197,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>Macの移行アシスタントを使用せずにiTunesを移行する方法</title>
-      <link>http://blog.tackeyy.org/2016/07/31/mac%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9B%E3%81%9A%E3%81%ABitunes%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95</link>
+      <link>http://blog.tackeyy.org/post/2016/07/31/mac%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9B%E3%81%9A%E3%81%ABitunes%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95</link>
       <pubDate>Sun, 31 Jul 2016 19:00:26 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/31/mac%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9B%E3%81%9A%E3%81%ABitunes%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/31/mac%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%82%A2%E3%82%B7%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9B%E3%81%9A%E3%81%ABitunes%E3%82%92%E7%A7%BB%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95</guid>
       <description>
 
 &lt;h2 id=&#34;macの移行アシスタントを使わずにitunesの移行方法について:079113c14c373534b5c63a78165fc622&#34;&gt;Macの移行アシスタントを使わずにiTunesの移行方法について&lt;/h2&gt;
@@ -217,10 +217,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>GitHubでhttpsでcloneしてしまったリポジトリをsshに変更する</title>
-      <link>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</link>
+      <link>http://blog.tackeyy.org/post/2016/07/27/change-http-to-ssh-on-github</link>
       <pubDate>Wed, 27 Jul 2016 23:54:46 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/27/change-http-to-ssh-on-github</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/27/change-http-to-ssh-on-github</guid>
       <description>
 
 &lt;p&gt;時々なぜかhttpでcloneしてしまうことがあって、その都度どうやってsshにするんだっけ？となるのでメモ。&lt;/p&gt;
@@ -241,10 +241,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>既存のディレクトリにrails newする</title>
-      <link>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</link>
+      <link>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</link>
       <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</guid>
       <description>
 
 &lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
@@ -267,10 +267,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>[WIP] graphvizでER図を書いてみる</title>
-      <link>http://blog.tackeyy.org/2016/07/22/write-er-with-graphviz</link>
+      <link>http://blog.tackeyy.org/post/2016/07/22/write-er-with-graphviz</link>
       <pubDate>Fri, 22 Jul 2016 21:34:47 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/22/write-er-with-graphviz</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/22/write-er-with-graphviz</guid>
       <description>
 
 &lt;p&gt;個人のプロジェクトでテーブルレイアウトを作成したいと思いツールを探している時に&lt;br&gt;
@@ -321,10 +321,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>git commitを取り消す</title>
-      <link>http://blog.tackeyy.org/2016/07/21/reset-git-commit</link>
+      <link>http://blog.tackeyy.org/post/2016/07/21/reset-git-commit</link>
       <pubDate>Thu, 21 Jul 2016 15:50:21 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/21/reset-git-commit</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/21/reset-git-commit</guid>
       <description>
 
 &lt;h1 id=&#34;間違えてdevelopにコミットしてもーた:ef37a109d09e802f7e8f24a9c200bdcb&#34;&gt;間違えてdevelopにコミットしてもーた&lt;/h1&gt;
@@ -350,10 +350,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>ペットのトリミングサロンをまとめたウェブサイト</title>
-      <link>http://blog.tackeyy.org/2016/07/16/pet-trimming-salons</link>
+      <link>http://blog.tackeyy.org/post/2016/07/16/pet-trimming-salons</link>
       <pubDate>Sat, 16 Jul 2016 18:48:19 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/16/pet-trimming-salons</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/16/pet-trimming-salons</guid>
       <description>
 
 &lt;h1 id=&#34;サイト名:fffba3e5c412f84190627849868b7a95&#34;&gt;サイト名&lt;/h1&gt;
@@ -415,10 +415,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>楽しいRubyを読んでみた</title>
-      <link>http://blog.tackeyy.org/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</link>
+      <link>http://blog.tackeyy.org/post/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</link>
       <pubDate>Sun, 10 Jul 2016 14:35:10 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/10/%E6%A5%BD%E3%81%97%E3%81%84ruby%E3%82%92%E8%AA%AD%E3%82%93%E3%81%A7%E3%81%BF%E3%81%9F</guid>
       <description>
 
 &lt;h4 id=&#34;気づいたこと:559440eef9f1bed3ad0423ed4b4940fe&#34;&gt;気づいたこと&lt;/h4&gt;
@@ -453,10 +453,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>調整さんxフットサル大会自動予約</title>
-      <link>http://blog.tackeyy.org/2016/06/22/auto-reservation-with-choseisan</link>
+      <link>http://blog.tackeyy.org/post/2016/06/22/auto-reservation-with-choseisan</link>
       <pubDate>Wed, 22 Jun 2016 15:01:24 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/06/22/auto-reservation-with-choseisan</guid>
+      <guid>http://blog.tackeyy.org/post/2016/06/22/auto-reservation-with-choseisan</guid>
       <description>
 
 &lt;h4 id=&#34;概要:c1e7f5aef051e978a710a76015b92d66&#34;&gt;概要&lt;/h4&gt;
@@ -507,10 +507,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>node-easymockでモックサーバーを立てる</title>
-      <link>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</link>
+      <link>http://blog.tackeyy.org/post/2016/06/21/api-first-with-easymock</link>
       <pubDate>Tue, 21 Jun 2016 17:23:04 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</guid>
+      <guid>http://blog.tackeyy.org/post/2016/06/21/api-first-with-easymock</guid>
       <description>
 
 &lt;h4 id=&#34;node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;node-easymock&lt;/h4&gt;
@@ -566,10 +566,10 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
     
     <item>
       <title>モンキーパッチ</title>
-      <link>http://blog.tackeyy.org/2016/06/14/monkey-patch</link>
+      <link>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</link>
       <pubDate>Tue, 14 Jun 2016 20:28:37 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/06/14/monkey-patch</guid>
+      <guid>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</guid>
       <description>
 
 &lt;p&gt;社内の方が&lt;a href=&#34;https://github.com/t-k/gmo-payment-ruby&#34;&gt;gmo-payment-ruby&lt;/a&gt;にあてたモンキーパッチを紹介されていました。&lt;br&gt;

@@ -11,10 +11,10 @@
     
     <item>
       <title>railsの*_pathと*_urlの違いについて</title>
-      <link>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</link>
+      <link>http://blog.tackeyy.org/post/2016/08/16/differnce-between-path-and-url-on-rails</link>
       <pubDate>Tue, 16 Aug 2016 17:52:25 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/16/differnce-between-path-and-url-on-rails</guid>
       <description>
 
 &lt;p&gt;rails触りだしてから4か月くらい経ちましたが、&lt;br&gt;
@@ -53,10 +53,10 @@ HTTPプロトコルの仕様ってなんですか？！と聞けず（普通自�
     
     <item>
       <title>RailsのI18n（国際化対応）をやってみた</title>
-      <link>http://blog.tackeyy.org/2016/08/15/rails%E3%81%AEi18n%E5%9B%BD%E9%9A%9B%E5%8C%96%E5%AF%BE%E5%BF%9C%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F</link>
+      <link>http://blog.tackeyy.org/post/2016/08/15/i18n-on-rails</link>
       <pubDate>Mon, 15 Aug 2016 16:06:19 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/15/rails%E3%81%AEi18n%E5%9B%BD%E9%9A%9B%E5%8C%96%E5%AF%BE%E5%BF%9C%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/15/i18n-on-rails</guid>
       <description>
 
 &lt;p&gt;今回は国際化ではなくてviewに文字をベタ書きしたくないので、&lt;br&gt;
@@ -115,10 +115,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>Rspecでテストを書くときの雛形</title>
-      <link>http://blog.tackeyy.org/2016/08/01/rspec-template</link>
+      <link>http://blog.tackeyy.org/post/2016/08/01/rspec-template</link>
       <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/01/rspec-template</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/01/rspec-template</guid>
       <description>
 
 &lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;
@@ -152,10 +152,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>既存のディレクトリにrails newする</title>
-      <link>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</link>
+      <link>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</link>
       <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</guid>
       <description>
 
 &lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;

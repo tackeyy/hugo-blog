@@ -11,10 +11,10 @@
     
     <item>
       <title>railsの*_pathと*_urlの違いについて</title>
-      <link>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</link>
+      <link>http://blog.tackeyy.org/post/2016/08/16/differnce-between-path-and-url-on-rails</link>
       <pubDate>Tue, 16 Aug 2016 17:52:25 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/16/differnce-between-path-and-url-on-rails</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/16/differnce-between-path-and-url-on-rails</guid>
       <description>
 
 &lt;p&gt;rails触りだしてから4か月くらい経ちましたが、&lt;br&gt;
@@ -53,10 +53,10 @@ HTTPプロトコルの仕様ってなんですか？！と聞けず（普通自�
     
     <item>
       <title>RailsのI18n（国際化対応）をやってみた</title>
-      <link>http://blog.tackeyy.org/2016/08/15/rails%E3%81%AEi18n%E5%9B%BD%E9%9A%9B%E5%8C%96%E5%AF%BE%E5%BF%9C%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F</link>
+      <link>http://blog.tackeyy.org/post/2016/08/15/i18n-on-rails</link>
       <pubDate>Mon, 15 Aug 2016 16:06:19 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/15/rails%E3%81%AEi18n%E5%9B%BD%E9%9A%9B%E5%8C%96%E5%AF%BE%E5%BF%9C%E3%82%92%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/15/i18n-on-rails</guid>
       <description>
 
 &lt;p&gt;今回は国際化ではなくてviewに文字をベタ書きしたくないので、&lt;br&gt;
@@ -115,10 +115,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>Rspecでテストを書くときの雛形</title>
-      <link>http://blog.tackeyy.org/2016/08/01/rspec-template</link>
+      <link>http://blog.tackeyy.org/post/2016/08/01/rspec-template</link>
       <pubDate>Mon, 01 Aug 2016 23:37:50 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/08/01/rspec-template</guid>
+      <guid>http://blog.tackeyy.org/post/2016/08/01/rspec-template</guid>
       <description>
 
 &lt;p&gt;最近Rspecでテストを書くことが増えているのですが、特別な処理がない限りある程度テスト内容が大体同じなのでは？と思っています。&lt;br&gt;
@@ -152,10 +152,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>既存のディレクトリにrails newする</title>
-      <link>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</link>
+      <link>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</link>
       <pubDate>Tue, 26 Jul 2016 23:43:17 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/07/26/create-rails-project-into-current-directry</guid>
+      <guid>http://blog.tackeyy.org/post/2016/07/26/create-rails-project-into-current-directry</guid>
       <description>
 
 &lt;p&gt;久しぶりに &lt;code&gt;rails new&lt;/code&gt; しようと思うといつも忘れるのでメモ。&lt;br&gt;&lt;/p&gt;
@@ -178,10 +178,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>node-easymockでモックサーバーを立てる</title>
-      <link>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</link>
+      <link>http://blog.tackeyy.org/post/2016/06/21/api-first-with-easymock</link>
       <pubDate>Tue, 21 Jun 2016 17:23:04 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/06/21/api-first-with-easymock</guid>
+      <guid>http://blog.tackeyy.org/post/2016/06/21/api-first-with-easymock</guid>
       <description>
 
 &lt;h4 id=&#34;node-easymock:d7ce3da87a14f82de3ea69a2bacb3ef4&#34;&gt;node-easymock&lt;/h4&gt;
@@ -237,10 +237,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>モンキーパッチ</title>
-      <link>http://blog.tackeyy.org/2016/06/14/monkey-patch</link>
+      <link>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</link>
       <pubDate>Tue, 14 Jun 2016 20:28:37 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/06/14/monkey-patch</guid>
+      <guid>http://blog.tackeyy.org/post/2016/06/14/monkey-patch</guid>
       <description>
 
 &lt;p&gt;社内の方が&lt;a href=&#34;https://github.com/t-k/gmo-payment-ruby&#34;&gt;gmo-payment-ruby&lt;/a&gt;にあてたモンキーパッチを紹介されていました。&lt;br&gt;
@@ -272,10 +272,10 @@ modelごとにymlファイルを分割して管理できるのでできそうな
     
     <item>
       <title>carrierwaveを使ってlocalに画像をuploadする</title>
-      <link>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</link>
+      <link>http://blog.tackeyy.org/post/2016/05/20/upload-file-to-local-with-carrierwave</link>
       <pubDate>Fri, 20 May 2016 14:29:04 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/20/upload-file-to-local-with-carrierwave</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/20/upload-file-to-local-with-carrierwave</guid>
       <description>
 
 &lt;p&gt;備忘のために&lt;a href=&#34;https://github.com/carrierwaveuploader/carrierwave&#34;&gt;carrierwave&lt;/a&gt;を使って、ローカルに画像をアップロードする手順を記しておきます。&lt;br&gt;&lt;/p&gt;
@@ -364,10 +364,10 @@ viewを以下の通りにするだけで保存時に画像が削除されます�
     
     <item>
       <title>RuboCopでコードの静的チェックをしてみた@ローカル</title>
-      <link>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</link>
+      <link>http://blog.tackeyy.org/post/2016/05/19/run-rubocop-at-local</link>
       <pubDate>Thu, 19 May 2016 07:47:12 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/19/run-rubocop-at-local</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/19/run-rubocop-at-local</guid>
       <description>
 
 &lt;p&gt;参加しているプロジェクトでSideCIを用いてGitHub上にPushした時にRuboCopを走らせています。&lt;br&gt;
@@ -408,10 +408,10 @@ quickfix windowが開くので、普通にRuboCop走らせて修正するより�
     
     <item>
       <title>sorceryのREADMEを読んでみた</title>
-      <link>http://blog.tackeyy.org/2016/05/15/read-sorcery-readme</link>
+      <link>http://blog.tackeyy.org/post/2016/05/15/read-sorcery-readme</link>
       <pubDate>Sun, 15 May 2016 18:11:00 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/15/read-sorcery-readme</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/15/read-sorcery-readme</guid>
       <description>
 
 &lt;p&gt;sorceryは僕が携わっているプロジェクトで使用されていたりする身近な存在ではあったのですが、&lt;br&gt;

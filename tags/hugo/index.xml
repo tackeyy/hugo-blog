@@ -11,10 +11,10 @@
     
     <item>
       <title>これだけあればブログを書けるHugoの3つのコマンド</title>
-      <link>http://blog.tackeyy.org/2016/06/14/hugo-commands</link>
+      <link>http://blog.tackeyy.org/post/2016/06/14/hugo-commands</link>
       <pubDate>Tue, 14 Jun 2016 20:12:54 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/06/14/hugo-commands</guid>
+      <guid>http://blog.tackeyy.org/post/2016/06/14/hugo-commands</guid>
       <description>
 
 &lt;h3 id=&#34;普段使う-というよりもこれ以外使ってない-コマンド3選:0cd16b54df007c4eb14eef8cde24f476&#34;&gt;普段使う（というよりもこれ以外使ってない）コマンド3選&lt;/h3&gt;
@@ -52,10 +52,10 @@ hugo -t hugo-icarus-theme
     
     <item>
       <title>さくらVPS x wordpressからGitHub Pages x Hugoにした</title>
-      <link>http://blog.tackeyy.org/2016/05/08/wordpress-to-hugo</link>
+      <link>http://blog.tackeyy.org/post/2016/05/08/wordpress-to-hugo</link>
       <pubDate>Sun, 08 May 2016 00:12:03 +0900</pubDate>
       
-      <guid>http://blog.tackeyy.org/2016/05/08/wordpress-to-hugo</guid>
+      <guid>http://blog.tackeyy.org/post/2016/05/08/wordpress-to-hugo</guid>
       <description>
 
 &lt;p&gt;さくらVPS x Wordpressにして2週間くらいしか経っていませんが、&lt;br&gt;
