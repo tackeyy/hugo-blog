@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Analytics on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/tags/google-analytics/</link>
+    <description>Recent content in Google Analytics on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Wed, 24 Aug 2016 19:17:41 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Googleアナリティクスで自分自身のアクセスを除外する方法</title>
+      <link>http://blog.tackeyy.org/post/2016/08/24/googleanalytics-exclusion</link>
+      <pubDate>Wed, 24 Aug 2016 19:17:41 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/08/24/googleanalytics-exclusion</guid>
+      <description>
+
+&lt;p&gt;このブログもGoogleアナリティクスを導入しているのですが、&lt;br&gt;
+いつも自分のアクセスがカウントされてしまうので、&lt;br&gt;
+リアルな数値を見たくGoogleアナリティクスから&lt;br&gt;
+自分自身のアクセスを除外する方法を試してみました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;方法:c0d25d311b4a490b27ac0be4fbdc506f&#34;&gt;方法&lt;/h3&gt;
+
+&lt;p&gt;まあ、やっぱり有名なツールはググればちゃんとまとまった情報が出てきますね。&lt;br&gt;
+というわけで、&lt;a href=&#34;https://www.alleyoop.co.jp/blog/googleanalytics-exclusion/&#34;&gt;Googleアナリティクスでアクセスを除外する3つの方法&lt;/a&gt;を参照ください。&lt;br&gt;
+各方法のメリデメも記載してあり分かりやすいです。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;このブログで採用した方法:c0d25d311b4a490b27ac0be4fbdc506f&#34;&gt;このブログで採用した方法&lt;/h3&gt;
+
+&lt;p&gt;できるだけ簡単に導入できるため、chromeのアドオンで実現しました。&lt;br&gt;
+基本的にスマホなどからはブログを見ないので、&lt;br&gt;
+PCのブラウザ経由のアクセスのみカウントされなくてOKということもありました。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;アドオン導入方法:c0d25d311b4a490b27ac0be4fbdc506f&#34;&gt;アドオン導入方法&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://tools.google.com/dlpage/gaoptout?hl=ja&#34;&gt;ここ&lt;/a&gt;にアクセス&lt;/li&gt;
+&lt;li&gt;「Googleアナリティクス オプトアウト アドオンをダウンロード」をクリック&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;以上！&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
