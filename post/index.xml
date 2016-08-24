@@ -197,7 +197,9 @@ HTTPプロトコルの仕様ってなんですか？！と聞けず（普通自�
 
 &lt;h4 id=&#34;結論:fe74660a3448d57694c76285b61db682&#34;&gt;結論&lt;/h4&gt;
 
-&lt;p&gt;上記のレビューのコメントを咀嚼する形で結論となくならば、以下のようになります。&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;上記のレビューのコメントを咀嚼して、&lt;br&gt;
+具体的に記載する形で結論を書くならば、&lt;br&gt;
+以下のようになります。&lt;br&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;そもそもrailsの &lt;code&gt;redirect_to&lt;/code&gt; ではHTTPステータスコード3xx系でリクエストを投げており、&lt;/li&gt;
