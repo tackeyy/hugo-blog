@@ -78,26 +78,47 @@
     </item>
     
     <item>
-      <title>作業の手順書 / TodoList化を通して生産性の向上を図る</title>
+      <title>作業の手順書 / TodoList化を通して生産性の向上を図りたい</title>
       <link>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</link>
       <pubDate>Thu, 18 Aug 2016 13:25:39 +0900</pubDate>
       
       <guid>http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list</guid>
       <description>
 
-&lt;p&gt;作業効率を上げるひとつの方法として、掲題の手法が有用なのではないかと考えています。&lt;br&gt;
+&lt;p&gt;作業効率を上げるひとつの方法として、掲題の手法が有用だと考えています。&lt;br&gt;
 &lt;br&gt;
 手順書によって作業手順に再現性を持たせることができ、&lt;br&gt;
 ToDoListによって各手順の作業に抜け漏れがなくなるため、&lt;br&gt;
 本来は不必要だった作業に時間をかけてしまったということがなく、&lt;br&gt;
 またミスなく作業を進める（可能性を高める）ことにより、&lt;br&gt;
-生産性が向上すると考えています&lt;br&gt;&lt;/p&gt;
+生産性が向上するはずだからです。&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;本ポストでは、作業の手順書 / TodoList化を合わせてテンプレ化と表現します。&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;テンプレ化のイメージ:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;テンプレ化のイメージ&lt;/h3&gt;
 
+&lt;p&gt;一般的に言う &lt;code&gt;業務手順書&lt;/code&gt; のようなイメージです。&lt;br&gt;
+言語化すると、以下の条件を満たすものをイメージしています。&lt;br&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;作業の順序およびフローがわかること&lt;/li&gt;
+&lt;li&gt;作業することが一覧になっていること&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id=&#34;どのような仕事においてテンプレ化すべきか:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;どのような仕事においてテンプレ化すべきか&lt;/h3&gt;
+
+&lt;p&gt;基本的にほぼすべての仕事においてテンプレ化できることが理想だと思います。&lt;br&gt;
+テンプレ化できる = 自分で行う必要がない(他人ができること) なので、&lt;br&gt;
+そもそもその作業は自分以外の人にやってもらった方がいい仕事かもしれません。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;仕事も私事もテンプレ化する:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;仕事も私事もテンプレ化する&lt;/h3&gt;
+
+&lt;p&gt;仕事はできる限りテンプレ化しようと努めてるのですが、&lt;br&gt;
+以下のような &lt;code&gt;頻度は低いが、度々調べてしまうような私事&lt;/code&gt; もテンプレ化すれば、&lt;br&gt;
+&lt;code&gt;n回 x 調べる時間&lt;/code&gt; が節約できるはずだと思います。&lt;br&gt;
+&lt;br&gt;
+ポストして差し支えない内容であれば、&lt;br&gt;
+どんどんテンプレ化してポストしていこうと思います。&lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;参考図書:3ac6d7f2297d9f46414edb6f6b8246d5&#34;&gt;参考図書&lt;/h3&gt;
 
