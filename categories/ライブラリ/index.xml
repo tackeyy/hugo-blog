@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ライブラリ on F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <link>http://blog.tackeyy.org/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/</link>
+    <description>Recent content in ライブラリ on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Thu, 25 Aug 2016 15:08:13 +0900</lastBuildDate>
+    <atom:link href="http://blog.tackeyy.org/categories/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ImageMagic is not installed の対処法</title>
+      <link>http://blog.tackeyy.org/post/2016/08/25/image-magic-is-not-installed</link>
+      <pubDate>Thu, 25 Aug 2016 15:08:13 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/08/25/image-magic-is-not-installed</guid>
+      <description>
+
+&lt;p&gt;ImageMagic is not installed の対処法についてのメモ。&lt;/p&gt;
+
+&lt;p&gt;掲題のエラーがstagingで発生していたので、&lt;br&gt;
+その原因調査および解決方法をメモしておきます。&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;発生していた事象:0bebda437151724dbb52671f05e7b372&#34;&gt;発生していた事象&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;stagingで画像を添付 -&amp;gt; 保存を行うと以下のエラーが発生して保存ができない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.tackeyy.org/static/images/2016/08/25/mini_magick_error.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;原因:0bebda437151724dbb52671f05e7b372&#34;&gt;原因&lt;/h3&gt;
+
+&lt;p&gt;エラーメッセージの通り、
+サーバーにImageMagickがインストールされいないことが原因です。&lt;/p&gt;
+
+&lt;p&gt;念のため以下のコマンドでImageMagickがインストールされているかを確認します。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;convert&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;インストールされていない場合は、
+以下のように表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;convert: コマンドが見つかりません&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;解決方法:0bebda437151724dbb52671f05e7b372&#34;&gt;解決方法&lt;/h3&gt;
+
+&lt;p&gt;ImageMagickをインストールします。
+yumを利用しているので、
+以下のコマンドでImageMagickを入れます。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo yum install ImageMagick&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;最後に:0bebda437151724dbb52671f05e7b372&#34;&gt;最後に&lt;/h3&gt;
+
+&lt;p&gt;ImageMagicはサーバーに直接インストールする必要があるので、&lt;br&gt;
+今後もちょいちょいインストールを忘れそうな気がする。&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
