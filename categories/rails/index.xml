@@ -6,8 +6,23 @@
     <description>Recent content in Rails on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Tue, 16 Aug 2016 17:52:25 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Sep 2016 16:20:36 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/categories/rails/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rails4でlink_toを複数行にまたいで書く</title>
+      <link>http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line</link>
+      <pubDate>Wed, 14 Sep 2016 16:20:36 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line</guid>
+      <description>&lt;p&gt;例えば画像をリンクにしたい場合などに &lt;code&gt;link_to&lt;/code&gt; の引数のリンク部分が&lt;br&gt;
+複数行になるケースがあると思います。&lt;br&gt;
+&lt;br&gt;
+そのような時の記述方法を知らなかったので、メモしておきます。&lt;br&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/75e9ec7e30ad4dd15380dd926c8aecaf.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>railsの*_pathと*_urlの違いについて</title>

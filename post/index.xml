@@ -6,8 +6,23 @@
     <description>Recent content in Posts on F.C. BigDecimal | Web開発や読んだ本のはなし</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 25 Aug 2016 15:08:13 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Sep 2016 16:20:36 +0900</lastBuildDate>
     <atom:link href="http://blog.tackeyy.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Rails4でlink_toを複数行にまたいで書く</title>
+      <link>http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line</link>
+      <pubDate>Wed, 14 Sep 2016 16:20:36 +0900</pubDate>
+      
+      <guid>http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line</guid>
+      <description>&lt;p&gt;例えば画像をリンクにしたい場合などに &lt;code&gt;link_to&lt;/code&gt; の引数のリンク部分が&lt;br&gt;
+複数行になるケースがあると思います。&lt;br&gt;
+&lt;br&gt;
+そのような時の記述方法を知らなかったので、メモしておきます。&lt;br&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/tackeyy/75e9ec7e30ad4dd15380dd926c8aecaf.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>ImageMagic is not installed の対処法</title>
@@ -562,71 +577,6 @@ rspecから少し離れるとすぐコマンドを忘れてしまうので備忘
 
 &lt;p&gt;説明されてるページ見つけた。&lt;br&gt;
 &lt;a href=&#34;http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468&#34;&gt;http://d.hatena.ne.jp/mrgoofy33/20100910/1284069468&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>ペットのトリミングサロンをまとめたウェブサイト</title>
-      <link>http://blog.tackeyy.org/post/2016/07/16/pet-trimming-salons</link>
-      <pubDate>Sat, 16 Jul 2016 18:48:19 +0900</pubDate>
-      
-      <guid>http://blog.tackeyy.org/post/2016/07/16/pet-trimming-salons</guid>
-      <description>
-
-&lt;h1 id=&#34;サイト名:fffba3e5c412f84190627849868b7a95&#34;&gt;サイト名&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HotPetBeauty&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;要件:fffba3e5c412f84190627849868b7a95&#34;&gt;要件&lt;/h1&gt;
-
-&lt;h2 id=&#34;user:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ペットサロンを探すことができる
-
-&lt;ul&gt;
-&lt;li&gt;都道府県、市区町村から探せる&lt;/li&gt;
-&lt;li&gt;最寄駅から探せる&lt;/li&gt;
-&lt;li&gt;評価が高いサロンを探せる&lt;/li&gt;
-&lt;li&gt;予算から探せる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;お店の情報を確認することができる
-
-&lt;ul&gt;
-&lt;li&gt;サロン名や住所を確認できる&lt;/li&gt;
-&lt;li&gt;店内やトリミング後のペットの写真を確認できる&lt;/li&gt;
-&lt;li&gt;メニューを確認できる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;サロン予約ができる&lt;/li&gt;
-&lt;li&gt;各店舗に問い合わせができる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;admin:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;店舗情報やメニューを編集することができる&lt;/li&gt;
-&lt;li&gt;予約管理ができる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;mvp:fffba3e5c412f84190627849868b7a95&#34;&gt;MVP&lt;/h1&gt;
-
-&lt;h2 id=&#34;user-1:fffba3e5c412f84190627849868b7a95&#34;&gt;user&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ペットサロンを探すことができる
-
-&lt;ul&gt;
-&lt;li&gt;特定の区で探すことができる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;admin-1:fffba3e5c412f84190627849868b7a95&#34;&gt;admin&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;特になし&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

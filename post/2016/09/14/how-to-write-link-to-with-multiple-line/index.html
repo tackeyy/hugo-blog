@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="jp">
 <head>
-    <title>Image Magic &middot; F.C. BigDecimal | Web開発や読んだ本のはなし</title>
+    <title>Rails4でlink_toを複数行にまたいで書く &middot; F.C. BigDecimal | Web開発や読んだ本のはなし</title>
     <meta name="generator" content="Hugo 0.15" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -9,9 +9,6 @@
     
       <meta name="description" content="hoge">
     
-    
-      <link href="http://blog.tackeyy.org/tags/image-magic/index.xml" rel="alternate" type="application/rss+xml" title="F.C. BigDecimal | Web開発や読んだ本のはなし" />
-      <link href="http://blog.tackeyy.org/tags/image-magic/index.xml" rel="feed" type="application/rss+xml" title="F.C. BigDecimal | Web開発や読んだ本のはなし" />
     
     <link rel="icon" href="http://blog.tackeyy.org/favicon.ico">
     <link rel="apple-touch-icon" href="http://blog.tackeyy.org/apple-touch-icon.png" />
@@ -21,13 +18,18 @@
     <link rel="stylesheet" href="http://blog.tackeyy.org/fancybox/jquery.fancybox.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
-    <meta property="og:title" content="Image Magic" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://blog.tackeyy.org/tags/image-magic/" />
+    <meta property="og:title" content="Rails4でlink_toを複数行にまたいで書く" />
+<meta property="og:description" content="例えば画像をリンクにしたい場合などに link_to の引数のリンク部分が
+複数行になるケースがあると思います。
+
+そのような時の記述方法を知らなかったので、メモしておきます。
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line" />
 
 
-<meta property="og:updated_time" content="2016-08-25T15:08:13&#43;09:00"/>
+<meta property="og:updated_time" content="2016-09-14T16:20:36&#43;09:00"/>
+
 
 
 
@@ -39,11 +41,36 @@
 
     
     
-<meta itemprop="name" content="Image Magic">
-<meta itemprop="description" content="">
+<meta itemprop="name" content="Rails4でlink_toを複数行にまたいで書く">
+<meta itemprop="description" content="例えば画像をリンクにしたい場合などに link_to の引数のリンク部分が
+複数行になるケースがあると思います。
 
+そのような時の記述方法を知らなかったので、メモしておきます。
+">
+
+
+<meta itemprop="dateModified" content="2016-09-14T16:20:36&#43;09:00" />
+<meta itemprop="wordCount" content="5">
+
+
+
+<meta itemprop="keywords" content="books,gem,git,github,google-analytics,hugo,rails,ruby,その他,アイディア,ツール,ライフハック,ライブラリ,思考,開発環境,api,books,carrier-wave,carrierwave,circleci,er図,factorygirl,gem,git,github,github-pages,google-analytics,graphviz,hugo,i18n,image-magic,itunes,lifehack,local,node,node-easymock,rails,rspec,rubocop,ruby,sideci,slack,sorcery,tips,todo-list,uiflow,webmock,webサービス,wordpress,さくらvps,アイディア,サイトマップ,モンキーパッチ,ライフハック,公開鍵,思考,開発ツール," />
 
     
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Rails4でlink_toを複数行にまたいで書く"/>
+<meta name="twitter:description" content="例えば画像をリンクにしたい場合などに link_to の引数のリンク部分が
+複数行になるケースがあると思います。
+
+そのような時の記述方法を知らなかったので、メモしておきます。
+"/>
+<meta name="twitter:site" content="@3chhe"/>
+
+
     
 
     
@@ -53,7 +80,7 @@
 
 
 <div id="container">
-    <header id="header">
+	<header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
       <a href="http://blog.tackeyy.org/" id="logo">
@@ -141,8 +168,10 @@
   </div>
 </header>
 
-    <div class="outer">
-        <aside id="profile">
+   	
+   	<div class="outer">
+   		
+	    <aside id="profile">
   <div class="inner profile-inner">
     <div class="base-info profile-block">
       <img id="avatar" src="http://blog.tackeyy.org/css/images/avatar.png">
@@ -229,51 +258,136 @@
 <td><a href="//twitter.com/3chhe" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
 
 
-          <td><a href="http://blog.tackeyy.org/tags/image-magic/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+          <td><a href="" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
         </tr>
       </table>
     </div>
   </div>
 </aside>
 
-        <section id="main">
-            <section class="archives-wrap">
-                <div class="archive-category-wrap">
-                    <span class="archive-category">Image Magic</span>
-                </div>
-                <div class="archives">
-                    
-                    
-                        <article class="archive-article archive-type-post">
-    <div class="archive-article-inner">
-        <div class="archive-article-thumbnail">
-            
-            <a href="http://blog.tackeyy.org/post/2016/08/25/image-magic-is-not-installed" class="thumbnail">
-                <span style="background-image:url(http://blog.tackeyy.org/banners/image_magic/logo.png)" alt="ImageMagic is not installed の対処法" class="thumbnail-image"></span>
-            </a>
-            
-        </div>
-        <header class="archive-article-header">
-            <h1 itemprop="name">
-            <a class="archive-article-title" href="http://blog.tackeyy.org/post/2016/08/25/image-magic-is-not-installed">ImageMagic is not installed の対処法</a>
-            </h1>
-            <div class="archive-article-date">
-                <i class="fa fa-calendar"></i>
-                <time datetime="2016-08-25 15:08:13 &#43;0900 JST" itemprop="datePublished">2016-08-25</time>
-            </div>
-        </header>
-    </div>
-</article>
- 
-                    
-                </div>
-            </section>
-            <nav id="page-nav">
+	    
 
+	    
+<section id="main">
+
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+        <div class="article-inner">
+            
+                <img src="http://blog.tackeyy.org/banners/rails/logo.png" class="article-banner">
+            
+
+            <header class="article-header">
+    <a href="http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line">
+    <h1 class="article-title" itemprop="name">
+        Rails4でlink_toを複数行にまたいで書く
+    </h1>
+    </a>
+    <div class="article-meta">
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-09-14 16:20:36 &#43;0900 JST" itemprop="datePublished">2016-09-14</time>
+            &middot;
+            5
+            words
+            &middot;
+            1
+            minute read
+        </div>
+
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                <a class="article-category-link" href="http://blog.tackeyy.org/categories/rails">rails</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                <a class="article-category-link" href="http://blog.tackeyy.org/tags/rails">rails</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+            <div class="article-entry" itemprop="articleBody">
+                <p>例えば画像をリンクにしたい場合などに <code>link_to</code> の引数のリンク部分が<br>
+複数行になるケースがあると思います。<br>
+<br>
+そのような時の記述方法を知らなかったので、メモしておきます。<br></p>
+
+<script src="https://gist.github.com/tackeyy/75e9ec7e30ad4dd15380dd926c8aecaf.js"></script>
+
+            </div>
+            <footer class="article-footer">
+    <a data-url="http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line" data-id="588d2271b11d468b88570bb58e579b4d" class="article-share-link">
+        Share
+    </a>
+    
+    <a href="http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+</footer>
+
+        </div>
+
+        
+<nav id="article-nav">
+    
+    <a href="http://blog.tackeyy.org/post/2016/08/25/image-magic-is-not-installed" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">ImageMagic is not installed の対処法</div>
+    </a>
+    
+
+    
 </nav>
 
-        </section>
-        <aside id="sidebar">
+
+    </article>
+
+    
+    <section id="comments">
+        <div id="disqus_thread">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'http-blog-tackeyy-org';
+    var disqus_identifier = 'http:\/\/blog.tackeyy.org\/post\/2016\/09\/14\/how-to-write-link-to-with-multiple-line';
+    var disqus_title = 'Rails4でlink_toを複数行にまたいで書く';
+    var disqus_url = 'http:\/\/blog.tackeyy.org\/post\/2016\/09\/14\/how-to-write-link-to-with-multiple-line';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+    </section>
+    
+</section>
+
+
+	    
+	    <aside id="sidebar">
     
 <div class="widget-wrap">
     <h3 class="widget-title">
@@ -286,7 +400,7 @@
                 <div class="item-thumbnail">
                     <a href="http://blog.tackeyy.org/post/2016/09/14/how-to-write-link-to-with-multiple-line" class="thumbnail">
                     
-                        <span style="background-image:url(http://blog.tackeyy.org/banners/rails/logo.png)" alt="Image Magic" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://blog.tackeyy.org/banners/rails/logo.png)" alt="Rails4でlink_toを複数行にまたいで書く" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -311,7 +425,7 @@
                 <div class="item-thumbnail">
                     <a href="http://blog.tackeyy.org/post/2016/08/25/image-magic-is-not-installed" class="thumbnail">
                     
-                        <span style="background-image:url(http://blog.tackeyy.org/banners/image_magic/logo.png)" alt="Image Magic" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://blog.tackeyy.org/banners/image_magic/logo.png)" alt="Rails4でlink_toを複数行にまたいで書く" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -336,7 +450,7 @@
                 <div class="item-thumbnail">
                     <a href="http://blog.tackeyy.org/post/2016/08/24/googleanalytics-exclusion" class="thumbnail">
                     
-                        <span style="background-image:url(http://blog.tackeyy.org/banners/google/analytics/logo.png)" alt="Image Magic" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://blog.tackeyy.org/banners/google/analytics/logo.png)" alt="Rails4でlink_toを複数行にまたいで書く" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -361,7 +475,7 @@
                 <div class="item-thumbnail">
                     <a href="http://blog.tackeyy.org/post/2016/08/19/todo-list-with-wedding" class="thumbnail">
                     
-                        <span style="background-image:url(http://blog.tackeyy.org/banners/materials/todo_list.jpg)" alt="Image Magic" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://blog.tackeyy.org/banners/materials/todo_list.jpg)" alt="Rails4でlink_toを複数行にまたいで書く" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -386,7 +500,7 @@
                 <div class="item-thumbnail">
                     <a href="http://blog.tackeyy.org/post/2016/08/18/why-need-todo-list" class="thumbnail">
                     
-                        <span style="background-image:url(http://blog.tackeyy.org/banners/materials/todo_list.jpg)" alt="Image Magic" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://blog.tackeyy.org/banners/materials/todo_list.jpg)" alt="Rails4でlink_toを複数行にまたいで書く" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
@@ -943,7 +1057,8 @@
     <div id="toTop" class="fa fa-chevron-up"></div>
 </aside>
 
-    </div>
+	    
+	</div>
 </div>
 
 <footer id="footer">
